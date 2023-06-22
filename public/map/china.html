@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>中国地图</title>
+    <script type="text/javascript" src="./jquery/jquery-1.12.3.min.js"></script>
+     <!--地图Lib-->
+     <script src="./Cesium/Cesium.js"></script>
+     <!-- <script src="./Cesium/autoPath.js"></script> -->
+     <script src="./EtsMap.min.js"></script>
+     <link href="./Cesium/Widgets/widgets.css" rel="stylesheet" type="text/css">
+     <link href="./style.css" rel="stylesheet" type="text/css">
+    <style>
+        .cim-anim-point-wp{ 
+          position: absolute;
+          top: 0px;
+          left: -5px;
+        }
+      </style>
+    <style>
+        .operate-panel{
+            position: fixed;
+            right: 50px;
+            width: 150px;
+            height: auto;
+            top: 200px;
+            z-index: 9999;
+            background-color: rgba(0,0,0,0.8);
+            box-shadow: 0 0 5px #dddddd;
+            box-sizing: border-box;
+            padding: 10px 10px;
+            color: #fff;
+            user-select: auto;
+            -moz-user-select: none;
+            -webkit-user-select: none;
+        }
+        .operate-panel .op-btn{
+            height:30px;
+            line-height: 30px;
+            cursor: pointer;
+            font-size: 16px;
+            border-bottom: 1px solid rgba(255,255,255,0.2);
+        }
+        .operate-panel .op-btn:last-child{
+            border-bottom:none
+        }
+        .operate-panel .op-btn:hover{
+            color: #ff661e
+        }
+        .operate-panel .op-btn.on{
+            color:red
+        }
+
+
+
+        #moveTips {
+            position: absolute;
+            z-index: 9999;
+            /* color: #fff; */
+           
+        }
+
+        .cimMap-popup {
+            left: 0;
+            top: 5px
+        }
+
+        .cimMap-popup,
+        .cimMap-popup-close-button {
+            position: absolute;
+            text-align: center;
+            z-index: 9999
+        }
+
+        .cimMap-popup-close-button {
+            top: 0;
+            right: 0;
+            padding: 4px 4px 0 0;
+            width: 18px;
+            height: 14px;
+            font: 16px/14px Tahoma, Verdana, sans-serif;
+            text-decoration: none;
+            font-weight: 700;
+            background: transparent
+        }
+
+        .cimMap-popup-content-wrapper {
+            text-align: center;
+            max-height: 500px;
+            overflow-y: auto;
+            box-shadow: 0 3px 14px rgba(0, 0, 0, .4);
+            padding: 1px;
+            text-align: left;
+            border-radius: 3px;
+         /*    background-image: url("img/bubble_img.png"); */
+        }
+
+        .cimMap-popup-content {
+            margin: 10px;
+            line-height: 1.4;
+            font-size: 13px;
+            max-width: 800px;
+            min-width: 50px;
+            
+        }
+
+        .cimMap-popup-tip-container {
+            margin: 0 auto;
+            width: 40px;
+            height: 20px;
+            position: relative;
+            overflow: hidden
+        }
+
+        .cimMap-popup-tip {
+            box-shadow: 0 3px 14px rgba(0, 0, 0, .4);
+            width: 17px;
+            height: 17px;
+            padding: 1px;
+            margin: -10px auto 0;
+            transform: rotate(45deg)
+        }
+
+        .cimMap-popup-color {
+            color: #fff
+        }
+
+        .cimMap-popup-background {
+            /* background: rgba(63, 72, 84, .9) */
+            background-image: url("img/bubble_img.png");
+            background-size: 100% 100%;
+        }
+
+        .mars-popup-titile {
+            border-radius: 3px 0 0 3px;
+            padding: 0 80px 0 10px;
+            height: 40px;
+            line-height: 40px;
+            font-size: 16px;
+            color: #fff;
+            border-bottom: 1px solid #616161;
+            overflow: hidden
+        }
+
+        .mars-popup-content {
+            min-width: 150px;
+            margin-top: 12px;
+            font-size: 14px
+        }
+
+        .mars-popup-content label {
+            margin: 0 10px;
+            min-width: 50px
+        }
+
+        .mars-popup-content>div {
+            margin-top: 5px
+        }
+    </style>
+</head>
+<body>
+<div id="etsMapContainer" style="background-image: url(img/bg.png) ; background-repeat: no-repeat"></div>
+
+<div id="moveTips" class="cimMap-popup" style="display: none">
+    <a id="cimMapContainerpopup_16-popup-close" data-id="cimMapContainerpopup_16"
+        class="cimMap-popup-close-button cimMap-popup-color">×</a>
+    <div class="cimMap-popup-content-wrapper cimMap-popup-background">
+        <div class="cimMap-popup-content cimMap-popup-color">
+            <div class="mars-popup-titile" id="moveTIpsTitle">设备</div>
+            <div class="mars-popup-content" id="moveTipsMain">
+
+            </div>
+        </div>
+    </div>
+    <div class="cimMap-popup-tip-container">
+        <div class="cimMap-popup-tip cimMap-popup-background"></div>
+    </div>
+</div>
+<!-- <div class="operate-panel">
+    <div class="op-btn" attrid="0">随机区域颜色</div>
+    <div class="op-btn" attrid="0">随机区域高度</div>
+    <div class="op-btn" attrid="0">显示区域边框</div>
+    <div class="op-btn" attrid="0">显示标签</div>
+</div> -->
+<script>
+    window.EtsMap = EtsMap;
+    window.CESIUM_BASE_URL = "./Cesium/";
+</script>
+<script type="text/javascript" src="js/china.js"></script>
+</body>
+</html>

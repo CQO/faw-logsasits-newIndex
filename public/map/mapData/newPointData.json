@@ -1,0 +1,699 @@
+[
+   { 
+    "type":"仓库提货点",
+    "result":[
+        {
+            "position": [
+                120.326537, 
+                32.872716, 
+                530
+            ], 
+            "options": {
+                "id":"0",
+                "militaryWarehouseName": "军方仓库名称",
+                "warehouseAddress": "仓库地址",
+                "localWarehouseName": "地方仓库名称",
+                "plannedSupportNum": "计划保障件数",
+                "supportUnitNum": "保障单位个数",
+                "inventoryQuantity": "库存数量"
+            }
+        }, 
+        {
+            "position": [
+                122.331544, 
+                29.976836, 
+                531
+            ], 
+            "options": {
+                "id":"1",
+                "militaryWarehouseName": "军方仓库名称",
+                "warehouseAddress": "仓库地址",
+                "localWarehouseName": "地方仓库名称",
+                "plannedSupportNum": "计划保障件数",
+                "supportUnitNum": "保障单位个数",
+                "inventoryQuantity": "库存数量"
+            }
+        }, 
+        {
+            "position": [
+                118.585444, 
+                30.073292, 
+                532
+            ], 
+            "options": {
+                "id":"2",
+                "militaryWarehouseName": "军方仓库名称",
+                "warehouseAddress": "仓库地址",
+                "localWarehouseName": "地方仓库名称",
+                "plannedSupportNum": "计划保障件数",
+                "supportUnitNum": "保障单位个数",
+                "inventoryQuantity": "库存数量"
+            }
+        }, 
+        {
+            "position": [
+                119.511425, 
+                27.46665, 
+                533
+            ], 
+            "options": {
+                "id":"3",
+                "militaryWarehouseName": "军方仓库名称",
+                "warehouseAddress": "仓库地址",
+                "localWarehouseName": "地方仓库名称",
+                "plannedSupportNum": "计划保障件数",
+                "supportUnitNum": "保障单位个数",
+                "inventoryQuantity": "库存数量"
+            }
+        }, 
+        {
+            "position": [
+                114.931541, 
+                28.238815, 
+                534
+            ], 
+            "options": {
+                "id":"4",
+                "militaryWarehouseName": "军方仓库名称",
+                "warehouseAddress": "仓库地址",
+                "localWarehouseName": "地方仓库名称",
+                "plannedSupportNum": "计划保障件数",
+                "supportUnitNum": "保障单位个数",
+                "inventoryQuantity": "库存数量"
+            }
+        }, 
+        {
+            "position": [
+                111.464449, 
+                27.327132, 
+                535
+            ], 
+            "options": {
+                "id":"5",
+                "militaryWarehouseName": "军方仓库名称",
+                "warehouseAddress": "仓库地址",
+                "localWarehouseName": "地方仓库名称",
+                "plannedSupportNum": "计划保障件数",
+                "supportUnitNum": "保障单位个数",
+                "inventoryQuantity": "库存数量"
+            }
+        }, 
+        {
+            "position": [
+                110.953582, 
+                22.360093, 
+                536
+            ], 
+            "options": {
+                "id":"6",
+                "militaryWarehouseName": "军方仓库名称",
+                "warehouseAddress": "仓库地址",
+                "localWarehouseName": "地方仓库名称",
+                "plannedSupportNum": "计划保障件数",
+                "supportUnitNum": "保障单位个数",
+                "inventoryQuantity": "库存数量"
+            }
+        }, 
+        {
+            "position": [
+                109.669442, 
+                23.600404, 
+                537
+            ], 
+            "options": {
+                "id":"7",
+                "militaryWarehouseName": "军方仓库名称",
+                "warehouseAddress": "仓库地址",
+                "localWarehouseName": "地方仓库名称",
+                "plannedSupportNum": "计划保障件数",
+                "supportUnitNum": "保障单位个数",
+                "inventoryQuantity": "库存数量"
+            }
+        }
+        ]
+    },
+   {
+     "type":"物流仓库",
+      "result":[
+            {
+                "position": [
+                    110.60142, 
+                    20.411307, 
+                    538
+                ], 
+                "options": {
+                    "id": "8",
+                    "localWarehouseName": "地方仓库名称",
+                    "militaryWarehouseName": "军方仓库名称",
+                    "plannedSupportNum": "计划保障件数",
+                    "unitNum": "保障单位个数",
+                    "warehouseReceipt": "入库数",
+                    "sortingCount": "分拣数",
+                    "warehouseIssue": "出库数",
+                    "inventoryCount": "库存数"
+                }
+            }, 
+            {
+                "position": [
+                    102.410532, 
+                    25.53609, 
+                    539
+                ], 
+                "options": {
+                    "id": "9",
+                    "localWarehouseName": "地方仓库名称",
+                    "militaryWarehouseName": "军方仓库名称",
+                    "plannedSupportNum": "计划保障件数",
+                    "unitNum": "保障单位个数",
+                    "warehouseReceipt": "入库数",
+                    "sortingCount": "分拣数",
+                    "warehouseIssue": "出库数",
+                    "inventoryCount": "库存数"
+                }
+            }, 
+            {
+                "position": [
+                    106.758548, 
+                    25.430838, 
+                    540
+                ], 
+                "options": {
+                    "id": "10",
+                    "localWarehouseName": "地方仓库名称",
+                    "militaryWarehouseName": "军方仓库名称",
+                    "plannedSupportNum": "计划保障件数",
+                    "unitNum": "保障单位个数",
+                    "warehouseReceipt": "入库数",
+                    "sortingCount": "分拣数",
+                    "warehouseIssue": "出库数",
+                    "inventoryCount": "库存数"
+                }
+            }, 
+            {
+                "position": [
+                    99.116727, 
+                    30.011662, 
+                    541
+                ], 
+                "options": {
+                    "id": "11",
+                    "localWarehouseName": "地方仓库名称",
+                    "militaryWarehouseName": "军方仓库名称",
+                    "plannedSupportNum": "计划保障件数",
+                    "unitNum": "保障单位个数",
+                    "warehouseReceipt": "入库数",
+                    "sortingCount": "分拣数",
+                    "warehouseIssue": "出库数",
+                    "inventoryCount": "库存数"
+                }
+            }, 
+            {
+                "position": [
+                    108.091515, 
+                    34.278013, 
+                    542
+                ], 
+                "options": {
+                    "id": "12",
+                    "localWarehouseName": "地方仓库名称",
+                    "militaryWarehouseName": "军方仓库名称",
+                    "plannedSupportNum": "计划保障件数",
+                    "unitNum": "保障单位个数",
+                    "warehouseReceipt": "入库数",
+                    "sortingCount": "分拣数",
+                    "warehouseIssue": "出库数",
+                    "inventoryCount": "库存数"
+                }
+            }, 
+            {
+                "position": [
+                    105.920599, 
+                    36.98627, 
+                    543
+                ], 
+                "options": {
+                    "id": "13",
+                    "localWarehouseName": "地方仓库名称",
+                    "militaryWarehouseName": "军方仓库名称",
+                    "plannedSupportNum": "计划保障件数",
+                    "unitNum": "保障单位个数",
+                    "warehouseReceipt": "入库数",
+                    "sortingCount": "分拣数",
+                    "warehouseIssue": "出库数",
+                    "inventoryCount": "库存数"
+                }
+            }, 
+            {
+                "position": [
+                    106.282541, 
+                    29.978181, 
+                    544
+                ], 
+                "options": {
+                    "id": "14",
+                    "localWarehouseName": "地方仓库名称",
+                    "militaryWarehouseName": "军方仓库名称",
+                    "plannedSupportNum": "计划保障件数",
+                    "unitNum": "保障单位个数",
+                    "warehouseReceipt": "入库数",
+                    "sortingCount": "分拣数",
+                    "warehouseIssue": "出库数",
+                    "inventoryCount": "库存数"
+                }
+            }, 
+            {
+                "position": [
+                    120.876482, 
+                    40.780894, 
+                    545
+                ], 
+                "options": {
+                    "id": "15",
+                    "localWarehouseName": "地方仓库名称",
+                    "militaryWarehouseName": "军方仓库名称",
+                    "plannedSupportNum": "计划保障件数",
+                    "unitNum": "保障单位个数",
+                    "warehouseReceipt": "入库数",
+                    "sortingCount": "分拣数",
+                    "warehouseIssue": "出库数",
+                    "inventoryCount": "库存数"
+                }
+            }, 
+            {
+                "position": [
+                    126.971377, 
+                    44.41227, 
+                    546
+                ], 
+                "options": {
+                    "id": "16",
+                    "localWarehouseName": "地方仓库名称",
+                    "militaryWarehouseName": "军方仓库名称",
+                    "plannedSupportNum": "计划保障件数",
+                    "unitNum": "保障单位个数",
+                    "warehouseReceipt": "入库数",
+                    "sortingCount": "分拣数",
+                    "warehouseIssue": "出库数",
+                    "inventoryCount": "库存数"
+                }
+            }
+        ]
+    },
+    { 
+        "type":"受供单位",
+        "result":[
+            {
+                "position": [
+                    120.485369, 
+                    37.652555, 
+                    547
+                ], 
+                "options": {
+                    "id": "17",
+                    "supplier": "受供单位",
+                    "address": "地址",
+                    "distributionQuantity": "配送物资数"
+                }
+            }, 
+            {
+                "position": [
+                    101.062403, 
+                    41.960298, 
+                    548
+                ], 
+                "options": {
+                    "id": "18",
+                    "supplier": "受供单位",
+                    "address": "地址",
+                    "distributionQuantity": "配送物资数"
+                }
+            }, 
+            {
+                "position": [
+                    115.141597, 
+                    38.843261, 
+                    549
+                ], 
+                "options": {
+                    "id": "19",
+                    "supplier": "受供单位",
+                    "address": "地址",
+                    "distributionQuantity": "配送物资数"
+                }
+            }, 
+            {
+                "position": [
+                    112.752614, 
+                    38.40988, 
+                    550
+                ], 
+                "options": {
+                    "id": "20",
+                    "supplier": "受供单位",
+                    "address": "地址",
+                    "distributionQuantity": "配送物资数"
+                }
+            }, 
+            {
+                "position": [
+                    114.046563, 
+                    29.561334, 
+                    551
+                ], 
+                "options": {
+                    "id": "21",
+                    "supplier": "受供单位",
+                    "address": "地址",
+                    "distributionQuantity": "配送物资数"
+                }
+            }, 
+            {
+                "position": [
+                    116.149444, 
+                    39.754326, 
+                    552
+                ], 
+                "options": {
+                    "id": "22",
+                    "supplier": "受供单位",
+                    "address": "地址",
+                    "distributionQuantity": "配送物资数"
+                }
+            }, 
+            {
+                "position": [
+                    117.01441, 
+                    39.148727, 
+                    553
+                ], 
+                "options": {
+                    "id": "23",
+                    "supplier": "受供单位",
+                    "address": "地址",
+                    "distributionQuantity": "配送物资数"
+                }
+            }, 
+            {
+                "position": [
+                    116.2, 
+                    40.22, 
+                    554
+                ], 
+                "options": {
+                    "id": "24",
+                    "supplier": "受供单位",
+                    "address": "地址",
+                    "distributionQuantity": "配送物资数"
+                }
+            }, 
+            {
+                "position": [
+                    112.53, 
+                    37.87, 
+                    555
+                ], 
+                "options": {
+                    "id": "25",
+                    "supplier": "受供单位",
+                    "address": "地址",
+                    "distributionQuantity": "配送物资数"
+                }
+            }, 
+            {
+                "position": [
+                    117.2, 
+                    39.13, 
+                    556
+                ], 
+                "options": {
+                    "id": "26",
+                    "supplier": "受供单位",
+                    "address": "地址",
+                    "distributionQuantity": "配送物资数"
+                }
+            }
+        ]
+    }, 
+    { 
+        "type":"工厂提货点",
+        "result":[
+            {
+                "position": [
+                    114.31, 
+                    30.52, 
+                    557
+                ], 
+                "options": {
+                    "id": "27",
+                    "name": "武汉综合仓库", 
+                    "storage": "30000"
+                }
+            }, 
+            {
+                "position": [
+                    104.06, 
+                    30.67, 
+                    558
+                ], 
+                "options": {
+                    "id": "28",
+                    "name": "成都储供基地", 
+                    "storage": "40055"
+                }
+            }, 
+            {
+                "position": [
+                    103.59, 
+                    29.75, 
+                    559
+                ], 
+                "options": {
+                    "id": "29",
+                    "name": "夹江综合仓库", 
+                    "storage": "68773"
+                }
+            }, 
+            {
+                "position": [
+                    103.73, 
+                    36.03, 
+                    560
+                ], 
+                "options": {
+                    "id": "30",
+                    "name": "兰州储供基地", 
+                    "storage": "30000"
+                }
+            }, 
+            {
+                "position": [
+                    119.3, 
+                    26.08, 
+                    561
+                ], 
+                "options": {
+                    "id": "31",
+                    "name": "福州综合仓库", 
+                    "storage": "40055"
+                }
+            }, 
+            {
+                "position": [
+                    118.78, 
+                    32.04, 
+                    562
+                ], 
+                "options": {
+                    "id": "32",
+                    "name": "南京储供基地", 
+                    "storage": "68773"
+                }
+            }, 
+            {
+                "position": [
+                    118.16, 
+                    26.65, 
+                    563
+                ], 
+                "options": {
+                    "id": "33",
+                    "name": "南平综合仓库", 
+                    "storage": "638393"
+                }
+            }
+        ]
+    }, 
+    {
+        "type":"站台提货点",
+        "result":[
+            {
+                "position": [
+                    121.56, 
+                    29.86, 
+                    564
+                ], 
+                "options": {
+                    "id": "34",
+                    "name": "宁波综合仓库", 
+                    "storage": "75859"
+                }
+            }, 
+            {
+                "position": [
+                    121.48, 
+                    31.22, 
+                    565
+                ], 
+                "options": {
+                    "id": "35",
+                    "name": "上海综合仓库", 
+                    "storage": "30000"
+                }
+            }, 
+            {
+                "position": [
+                    111.45, 
+                    40.82, 
+                    566
+                ], 
+                "options": {
+                    "id": "36",
+                    "name": "呼和浩特仓库", 
+                    "storage": "40055"
+                }
+            }, 
+            {
+                "position": [
+                    117, 
+                    36.65, 
+                    567
+                ], 
+                "options": {
+                    "id": "37",
+                    "name": "济南储供基地", 
+                    "storage": "68773"
+                }
+            }, 
+            {
+                "position": [
+                    127.33, 
+                    43.75, 
+                    568
+                ], 
+                "options": {
+                    "id": "38",
+                    "name": "蛟河油料仓库", 
+                    "storage": "638393"
+                }
+            }, 
+            {
+                "position": [
+                    121.15, 
+                    41.13, 
+                    569
+                ], 
+                "options": {
+                    "id": "39",
+                    "name": "锦州综合仓库", 
+                    "storage": "75859"
+                }
+            }, 
+            {
+                "position": [
+                    120.33, 
+                    36.07, 
+                    570
+                ], 
+                "options": {
+                    "id": "40",
+                    "name": "青岛综合仓库", 
+                    "storage": "638393"
+                }
+            }, 
+            {
+                "position": [
+                    123.38, 
+                    41.8, 
+                    571
+                ], 
+                "options": {
+                    "id": "41",
+                    "name": "沈阳储供基地", 
+                    "storage": "75859"
+                }
+            }, 
+            {
+                "position": [
+                    117.57, 
+                    34.86, 
+                    572
+                ], 
+                "options": {
+                    "id": "42",
+                    "name": "枣庄综合仓库", 
+                    "storage": "30000"
+                }
+            }, 
+            {
+                "position": [
+                    113.23, 
+                    23.16, 
+                    573
+                ], 
+                "options": {
+                    "id": "43",
+                    "name": "广州综合仓库", 
+                    "storage": "40055"
+                }
+            }, 
+            {
+                "position": [
+                    110.28, 
+                    25.29, 
+                    574
+                ], 
+                "options": {
+                    "id": "44",
+                    "name": "桂林综合仓库", 
+                    "storage": "68773"
+                }
+            }, 
+            {
+                "position": [
+                    112.39, 
+                    26.98, 
+                    575
+                ], 
+                "options": {
+                    "id": "45",
+                    "name": "衡阳储供基地", 
+                    "storage": "30000"
+                }
+            }, 
+            {
+                "position": [
+                    102.73, 
+                    25.04, 
+                    576
+                ], 
+                "options": {
+                    "id": "46",
+                    "name": "昆明储供基地", 
+                    "storage": "40055"
+                }
+            }, 
+            {
+                "position": [
+                    100.56, 
+                    25.48, 
+                    577
+                ], 
+                "options": {
+                    "id": "47",
+                    "name": "祥云综合仓库", 
+                    "storage": "68773"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,79 @@
+{
+  "id": "4075555",
+  "name": "黄总项目2023",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1455668",
+      "name": "close",
+      "font_class": "close",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "5961297",
+      "name": "查询",
+      "font_class": "chaxun",
+      "unicode": "ec4c",
+      "unicode_decimal": 60492
+    },
+    {
+      "icon_id": "12889875",
+      "name": "地图-右下-图例",
+      "font_class": "tuli",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "26659380",
+      "name": "最小化",
+      "font_class": "zuixiaohua",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "3898917",
+      "name": "火车",
+      "font_class": "huoche",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "5387401",
+      "name": "仓库_库存详情",
+      "font_class": "cangku",
+      "unicode": "eac8",
+      "unicode_decimal": 60104
+    },
+    {
+      "icon_id": "7239796",
+      "name": "line",
+      "font_class": "line",
+      "unicode": "e73a",
+      "unicode_decimal": 59194
+    },
+    {
+      "icon_id": "8145816",
+      "name": "交办单位",
+      "font_class": "danwei",
+      "unicode": "e662",
+      "unicode_decimal": 58978
+    },
+    {
+      "icon_id": "11441202",
+      "name": "仓库库存",
+      "font_class": "wuliu",
+      "unicode": "e633",
+      "unicode_decimal": 58931
+    },
+    {
+      "icon_id": "20852717",
+      "name": "工厂",
+      "font_class": "gongcheng",
+      "unicode": "e676",
+      "unicode_decimal": 58998
+    }
+  ]
+}

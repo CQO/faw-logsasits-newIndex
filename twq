@@ -1,0 +1,2933 @@
+[33mcommit 235324ea86285a7924f9e36ef59ab51b55c64e47[m[33m ([m[1;36mHEAD -> [m[1;32mmaster_20230517[m[33m, [m[1;31morigin/master_20230517[m[33m)[m
+Merge: 93f2ca8 cf6a748
+Author: haojinfeng000 <hjf6607@163.com>
+Date:   Sat May 27 12:11:01 2023 +0800
+
+    Merge branch 'master_20230517' of https://gitee.com/siyouyou/faw-logsasits into master_20230517
+
+[33mcommit 93f2ca84c895fb2b7cfdf88ed00316a27545cae2[m
+Author: haojinfeng000 <hjf6607@163.com>
+Date:   Sat May 27 12:10:24 2023 +0800
+
+    修改Od线
+
+[33mcommit cf6a748067d71e09134ba05cc7062ba8dbbaefb2[m
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Sat May 27 11:37:17 2023 +0800
+
+    完成联调汇总信息
+
+[33mcommit ac0f053d2638b17424a69eaf6fcd66745aa19950[m
+Author: huyinjie <huyinjie@goldwind.com>
+Date:   Sat May 27 10:06:37 2023 +0800
+
+    feat: 注销工厂提货点和站台提货点
+
+[33mcommit 55aeb2bfd55bd7caa436021be42b90a6a0b8516a[m
+Merge: 402bcc3 c4f5848
+Author: huyinjie <huyinjie@goldwind.com>
+Date:   Sat May 27 10:01:48 2023 +0800
+
+    Merge branch 'master_20230517' of https://gitee.com/siyouyou/faw-logsasits into develop_hyj
+
+[33mcommit 402bcc32795282b227304b2a62ab2a8c48033ef4[m
+Author: huyinjie <huyinjie@goldwind.com>
+Date:   Sat May 27 10:01:18 2023 +0800
+
+    feat: 对接新接口
+
+[33mcommit c4f5848d2e88650d41262536e9c12e2dd60bf7df[m
+Merge: 910dc01 de64ee4
+Author: haojinfeng000 <hjf6607@163.com>
+Date:   Fri May 26 22:33:14 2023 +0800
+
+    Merge branch 'master_20230517' of https://gitee.com/siyouyou/faw-logsasits into master_20230517
+
+[33mcommit 910dc01558896c7a60a9f092ad1fe35c74ad3f23[m
+Author: haojinfeng000 <hjf6607@163.com>
+Date:   Fri May 26 22:33:06 2023 +0800
+
+    修改OD线
+
+[33mcommit de64ee49291a33142dd3e39b6d9f6fb6c5898a22[m
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Fri May 26 22:25:57 2023 +0800
+
+    联调搜索接口
+
+[33mcommit 0a7f66566b53a7b7840afd44cd66030bd3235b2f[m
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Fri May 26 20:30:14 2023 +0800
+
+    添加接口配置
+
+[33mcommit 444c5cfbe7de4ee3ec4c1c90d78e34f319050c5e[m
+Merge: 241a104 e4e23ba
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Fri May 26 20:08:47 2023 +0800
+
+    合并代码
+
+[33mcommit e4e23baffe54ba21af01d8beb742607a4752040b[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Fri May 26 14:45:16 2023 +0800
+
+    0526文档修复
+
+[33mcommit 241a10427a44b76bb7ec71a88110c57bd5d64764[m
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Fri May 26 13:43:40 2023 +0800
+
+    修改配置
+
+[33mcommit 7b65479120ffe93fe5df342b43fa5c90b761e526[m
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Thu May 25 20:11:39 2023 +0800
+
+    样式修复
+
+[33mcommit 9a14f3d3b428112f5a8564cc95354ad437eb9e5a[m
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Thu May 25 19:38:23 2023 +0800
+
+    修改报错
+
+[33mcommit c5cb9367ddd0e95cde0f4d5054efd16adeb9998c[m
+Merge: a1ceb45 55a5008
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Thu May 25 19:37:01 2023 +0800
+
+    合并master
+
+[33mcommit 55a5008953a71577fd2adc5dea7fd813d5399e17[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu May 25 16:27:09 2023 +0800
+
+    dialogUI调整
+
+[33mcommit 74b18d373ed39c272b48198f53de6381e8ca4d63[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu May 25 14:28:43 2023 +0800
+
+    权限添加
+
+[33mcommit 01905896f0ccbb9528546ac0f80cd5ffbd2f4b50[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Wed May 24 18:20:57 2023 +0800
+
+    权限添加&首页弹框动画添加&弹框内引入图表
+
+[33mcommit 4137209d8a2ae013cc44f129aee1513a4d472220[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Wed May 24 11:43:13 2023 +0800
+
+    首页动画弹框&弹框中图表添加
+
+[33mcommit 030b6b315b1c78595c9f92d23c21f8a178bc5ccb[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Mon May 22 17:55:50 2023 +0800
+
+    问题修复
+
+[33mcommit 04e3ae5a4d9361a91d36c13837798c63618a9ab3[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Mon May 22 14:52:20 2023 +0800
+
+    点击选中状态添加
+
+[33mcommit 66a48fa4b56857926ea414d37443115027a49a61[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Mon May 22 14:32:12 2023 +0800
+
+    英文标题去除
+
+[33mcommit 38dd2d039706d31ae18b15fd37a90a7a4fd45f20[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Mon May 22 13:48:41 2023 +0800
+
+    文档内容修复a
+
+[33mcommit a1ceb45ec4dc37282917b4b21a30fdda1a6e6815[m
+Author: haojinfeng000 <hjf6607@163.com>
+Date:   Mon May 22 13:26:33 2023 +0800
+
+    去掉tip点
+
+[33mcommit f383860eabe5c22023ee329a3c806bd1524704db[m
+Merge: d0ddcdc 6d3e982
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Sun May 21 22:54:48 2023 +0800
+
+    修改细节
+
+[33mcommit d0ddcdcfa54f20a062bc56f7687612b23e84912c[m
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Sun May 21 22:54:21 2023 +0800
+
+    添加图标
+
+[33mcommit 6d3e982d4a193b7aefa6b654c1a4907b358f0cfd[m
+Author: huyinjie <huyinjie@goldwind.com>
+Date:   Sun May 21 22:43:46 2023 +0800
+
+    fix: 修改type
+
+[33mcommit 0b763a378cf96f9550b6930c4d6eeeb6f61d30b4[m
+Author: huyinjie <huyinjie@goldwind.com>
+Date:   Sun May 21 22:29:34 2023 +0800
+
+    fix: 修改字
+
+[33mcommit 39123799c0445e26735754cf5622624a58f22bc5[m
+Author: huyinjie <huyinjie@goldwind.com>
+Date:   Sun May 21 22:27:23 2023 +0800
+
+    feat: 迁徙线数据优化
+
+[33mcommit eb7a06dd02bb40e20f0eedb404974e4bf24d772c[m
+Author: huyinjie <huyinjie@goldwind.com>
+Date:   Sun May 21 21:49:24 2023 +0800
+
+    feat: 迁徙线显示隐藏控制
+
+[33mcommit 4648c42017d9cb52d9d3d952a2c7c6cd406899a3[m
+Merge: 3e94ad0 f55adb7
+Author: huyinjie <huyinjie@goldwind.com>
+Date:   Sun May 21 18:28:48 2023 +0800
+
+    Merge branch 'master_20230517' of https://gitee.com/siyouyou/faw-logsasits into develop_hyj
+
+[33mcommit 3e94ad0aeb37daf5bf787aad8ad045b3a5e20fdc[m
+Author: huyinjie <huyinjie@goldwind.com>
+Date:   Sun May 21 18:26:44 2023 +0800
+
+    feat:高亮+动态圆盘
+
+[33mcommit f55adb71615432fe1772f2e44435ee737fc1e9f2[m
+Author: haojinfeng000 <hjf6607@163.com>
+Date:   Sun May 21 18:12:57 2023 +0800
+
+    添加两类OD线
+
+[33mcommit 2e3cb1fbc281160406394a95662db94b37649f87[m
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Sun May 21 17:26:41 2023 +0800
+
+    完善图例和汇总信息
+
+[33mcommit c76a48401bd813f0029e0d8ee9902e3365fed79b[m
+Merge: 90c827e 532e22f
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Sun May 21 14:02:06 2023 +0800
+
+    解决冲突
+
+[33mcommit 90c827e73071cccd58a2703def24541c7a799d7a[m
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Sun May 21 14:01:34 2023 +0800
+
+    修改信息汇总
+
+[33mcommit 532e22f960c2603a3e6db32b5e02e2e1c00cb4b0[m
+Author: huyinjie <huyinjie@goldwind.com>
+Date:   Sun May 21 13:15:03 2023 +0800
+
+    feat: 搜索高亮
+
+[33mcommit 22bf4da136055a1ad7424a813a6fbf4ba351f08b[m
+Merge: 9fc11ad eda557b
+Author: huyinjie <huyinjie@goldwind.com>
+Date:   Sun May 21 11:55:23 2023 +0800
+
+    Merge branch 'master_20230517' of https://gitee.com/siyouyou/faw-logsasits into develop_hyj
+
+[33mcommit 9fc11ad91bb10b7792a0d9d7138347d3f1eb8f7e[m
+Author: huyinjie <huyinjie@goldwind.com>
+Date:   Sun May 21 11:54:47 2023 +0800
+
+    feat: 鼠标移入图标高亮，移出正常
+
+[33mcommit eda557bf97fa10e2f52fabaeb43d127828c316d4[m
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Sun May 21 11:24:59 2023 +0800
+
+    修改搜索样式
+
+[33mcommit 01f5865dc6b6ad44f1e586f0f7a7ee1193316078[m
+Merge: 1cb59ec 53aad4e
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Sun May 21 10:46:46 2023 +0800
+
+    修改细节
+
+[33mcommit 1cb59ec2b9ba4a0f6a918564a4fbbf80d0a6c29e[m
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Sun May 21 10:43:33 2023 +0800
+
+    修改搜索
+
+[33mcommit 53aad4e833c6ee70283862bb358441c4b860a0ec[m
+Author: huyinjie <huyinjie@goldwind.com>
+Date:   Sun May 21 10:25:31 2023 +0800
+
+    feat: 鼠标移入点位变成小手，移出变成箭头
+
+[33mcommit e6b265b0cf9ee60de331ce308acc08c2817459c2[m
+Merge: 89e18a6 80aac82
+Author: huyinjie <huyinjie@goldwind.com>
+Date:   Sun May 21 10:01:03 2023 +0800
+
+    Merge branch 'master_20230517' of https://gitee.com/siyouyou/faw-logsasits into develop_hyj
+
+[33mcommit 80aac82f7381206392b58356dbf8545b8129a98d[m
+Merge: 9d48e5b bd8c9e5
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Sun May 21 09:54:35 2023 +0800
+
+    修改细节
+
+[33mcommit 9d48e5bc855fb3e5a85a919054a27a1592da2d26[m
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Sun May 21 09:52:29 2023 +0800
+
+    添加高亮图标
+
+[33mcommit 89e18a619b099c06110394b5b63f82b5c5dfaa8f[m
+Author: huyinjie <huyinjie@goldwind.com>
+Date:   Sun May 21 09:24:11 2023 +0800
+
+    fix: 光圈延迟4s
+
+[33mcommit bd8c9e58b88f9ad3027bfe7f1bbc8e6f14379c63[m
+Merge: 406cb07 d193154
+Author: huyinjie <huyinjie@goldwind.com>
+Date:   Sun May 21 09:12:24 2023 +0800
+
+    Merge branch 'develop_hyj' of https://gitee.com/siyouyou/faw-logsasits into develop_hyj
+
+[33mcommit bb4a47b47f92b44d21c6652ef21c0d6538a148a8[m
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Sun May 21 08:47:04 2023 +0800
+
+    添加图标
+
+[33mcommit 406cb07491581ba1356b1c7288537fb012365537[m
+Author: huyinjie <huyinjie@goldwind.com>
+Date:   Sun May 21 08:42:27 2023 +0800
+
+    feat: 搜索
+
+[33mcommit d193154a837dc2c1387227adcf024a46c455fa25[m
+Merge: 2a50f55 e059178
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Sun May 21 01:05:44 2023 +0800
+
+    Merge branch 'master' of https://gitee.com/siyouyou/faw-logsasits into master_20230517
+
+[33mcommit 2a50f55e987ceb0f6c3b880e6b113e1f9b45b220[m
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Sun May 21 00:53:33 2023 +0800
+
+    添加搜索
+
+[33mcommit 96efe3bd0d861c8862687191e1e283a044fed7a6[m
+Merge: e8a4a1f 21c999b
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Sat May 20 23:35:30 2023 +0800
+
+    Merge branch 'master_20230517' of https://gitee.com/siyouyou/faw-logsasits into master_20230517
+
+[33mcommit e8a4a1f4b81dc9c4907d085b96bf97adfa29d3dd[m
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Sat May 20 23:32:27 2023 +0800
+
+    修改图标
+
+[33mcommit 21c999be7ce2676b631c947a19acd4c32ebd8dff[m
+Author: haojinfeng000 <hjf6607@163.com>
+Date:   Sat May 20 23:28:49 2023 +0800
+
+    添加OD线
+
+[33mcommit 0325fb70536509d1aeff9a600454320159b1f54a[m
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Sat May 20 21:48:26 2023 +0800
+
+    添加图片
+
+[33mcommit 37ce21be958b05efa9f7c1bc59d44091f5d81489[m
+Author: huyinjie <huyinjie@goldwind.com>
+Date:   Sat May 20 18:33:23 2023 +0800
+
+    feat: 展示详细
+
+[33mcommit bcb14370a9b86c39e6b65050e82e1df8f8b19ca8[m
+Author: huyinjie <huyinjie@goldwind.com>
+Date:   Sat May 20 14:41:08 2023 +0800
+
+    feat: 展示详细
+
+[33mcommit 5479f6613dd1a98de0425c1500a6b827694ef2b6[m
+Author: huyinjie <huyinjie@goldwind.com>
+Date:   Sat May 20 12:02:05 2023 +0800
+
+    feat: 图例控制显示隐藏
+
+[33mcommit 270a577a7aad74c6e362e1362a79f0868dedcad4[m
+Merge: 7fe7bba ea62809
+Author: huyinjie <hyjxcxz521@163.com>
+Date:   Fri May 19 23:07:45 2023 +0800
+
+    Merge branch 'master_20230517' of https://gitee.com/siyouyou/faw-logsasits into develop_hyj
+
+[33mcommit 7fe7bba98b96a843450693a450ba6e327b3c4c16[m
+Author: huyinjie <hyjxcxz521@163.com>
+Date:   Fri May 19 22:55:24 2023 +0800
+
+    feat: 启动项目
+
+[33mcommit ea62809ca3f6cb1f622f6ca84ebb65dfc02952c9[m
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Fri May 19 22:53:06 2023 +0800
+
+    更新图例
+
+[33mcommit e0591788bee98f45f9f941ffe73d8bb67822cb9b[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Fri May 19 16:44:49 2023 +0800
+
+    总体概况->问题监控
+
+[33mcommit 530a5ae721d892c4761d967bae7a1453d614c7ac[m
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Thu May 18 23:38:38 2023 +0800
+
+    添加iconfont和图例组件
+
+[33mcommit 377fc042afe193a3c3f53b10bbd3258eecd70d51[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu May 18 17:07:16 2023 +0800
+
+    ip调整
+
+[33mcommit f2301f1729ddca7359fa15c5a201cb6e4eb6204c[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu May 18 16:25:14 2023 +0800
+
+    bug修复
+
+[33mcommit 3e65ea3bbbc83d8ce9a51963996cc9fbd8948941[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu May 18 14:08:59 2023 +0800
+
+    ac
+
+[33mcommit af275f9375d2ad47afc0690a98c9d4aa9b6c5f48[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu May 18 13:46:04 2023 +0800
+
+    IP调整
+
+[33mcommit 997b0a0d5e68e23605b05ef4bc04fc525251618b[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu May 18 13:45:14 2023 +0800
+
+    处理及反馈提交
+
+[33mcommit df743d0e4420f02d04edff2ceb01ff2c9f139d06[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu May 18 10:55:02 2023 +0800
+
+    异常监控 处理意见&反馈完善
+
+[33mcommit edf86531914e50032ce572e0b1886491c8108476[m
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Wed May 17 23:11:56 2023 +0800
+
+    本地开发配置
+
+[33mcommit e6bb4dc2302aa72986074c3ef85c8a848988d468[m
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Wed May 17 22:48:04 2023 +0800
+
+    解决运行卡住的问题
+
+[33mcommit eb28b3930d084743f61f6f7c1baf069d6cd4342d[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Wed May 17 18:30:56 2023 +0800
+
+    ip调整
+
+[33mcommit 57d06de4a7fb8631331a02e642bd65c8da35b060[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Wed May 17 18:26:56 2023 +0800
+
+    ...
+
+[33mcommit a2e2ab647f07d099224e7124beea452fd9c28222[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Wed May 17 18:26:02 2023 +0800
+
+    提交信息
+
+[33mcommit 24a5ab2cfa1e858979aad271b1d1c5854aff2443[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Wed May 17 18:19:43 2023 +0800
+
+    异常监控
+
+[33mcommit 8302f5c857ec06d723fa5486b309cbdb526de9ca[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Wed May 17 17:28:44 2023 +0800
+
+    0516
+
+[33mcommit ba37fd2c68b2892f7618c44119aee0db72787248[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Wed May 17 11:30:53 2023 +0800
+
+    0513
+
+[33mcommit df5c33a9a33be2f94fa6f15f00024b9f90e04d57[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Tue May 16 18:21:19 2023 +0800
+
+    bug修复
+
+[33mcommit d6cbcd6cffa1153a8dfc548d976771dc0c70e853[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Tue May 16 17:29:30 2023 +0800
+
+    bug修复
+
+[33mcommit d5ae3f816b519ccda33823adcf9432bcdde53cf7[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Tue May 16 16:31:02 2023 +0800
+
+    运单二级路由添加&&bug修复
+
+[33mcommit 4195b66acc1cfb9996618b2e015cba983f1e7d68[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Tue May 16 14:12:52 2023 +0800
+
+    线上提出问题
+
+[33mcommit b8543c606dffc213a5403810bc7f06803d6678a7[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Tue May 16 11:56:47 2023 +0800
+
+    ip调整
+
+[33mcommit 700aed25b9063a87b025f4885bee96479129eff8[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Tue May 16 11:55:26 2023 +0800
+
+    回退bug修复
+
+[33mcommit 5615a846352fc96197db2405842f5c01eef510a3[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Tue May 16 11:33:00 2023 +0800
+
+    回退bug修复
+
+[33mcommit e480818b1e9d5be2dc2a442796e7bceb58c7bbdc[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Tue May 16 10:41:36 2023 +0800
+
+    ditu压缩
+
+[33mcommit 23553c04dfdcbed6bdfc750345107bf670b0c892[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Mon May 15 22:57:37 2023 +0800
+
+    登录联调
+
+[33mcommit 9f32beae9b15741455ad6d3a7b5bc3bb8c3d5b18[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Mon May 15 22:19:37 2023 +0800
+
+    跳转登录
+
+[33mcommit 9e6667f6c81dfc7f5f6060ddef021dfbded8f362[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Mon May 15 22:18:47 2023 +0800
+
+    tp
+
+[33mcommit 421658d8c4a3ea88ed791bc8be71d215c69c38b3[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Mon May 15 22:16:22 2023 +0800
+
+    tp1
+
+[33mcommit f61610dfd1add08e6b2c3639367bcfbd28a9772f[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Mon May 15 22:15:31 2023 +0800
+
+    tp
+
+[33mcommit b9595e7873bd73f73bab0abbf2ead827230b4bc7[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Mon May 15 22:15:07 2023 +0800
+
+    tp
+
+[33mcommit 0e2df55a839f85ceec0c5af453de785314d9b385[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Mon May 15 21:45:21 2023 +0800
+
+    tu2
+
+[33mcommit fe5359414eb3fca89bcc0c3ff6765467bcb331f8[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Mon May 15 21:44:40 2023 +0800
+
+    tu1
+
+[33mcommit b3d93ce33bd26eb45a9ebab6f55b3c1045009dc5[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Mon May 15 21:43:32 2023 +0800
+
+    登录页
+
+[33mcommit 0a03e95114a4364024aead99c93c26491fd1eb2c[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Mon May 15 21:42:41 2023 +0800
+
+    ///
+
+[33mcommit 9d4ac22d4eb9df57302ee93575ade2215a4eaec2[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Mon May 15 20:35:53 2023 +0800
+
+    登录页
+
+[33mcommit 5241ce708b9cc2c13a53cddd412ae2b72c123777[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Sun May 14 00:52:08 2023 +0800
+
+    bug修复
+
+[33mcommit 7b498e8e27b12c92c7f9f8c4520756c606deb87d[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Fri May 12 14:30:15 2023 +0800
+
+    ip调整
+
+[33mcommit 7adcdf645a3dd9b415d6b2190081d3e96f5ed5ed[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Fri May 12 14:00:01 2023 +0800
+
+    ip调整
+
+[33mcommit 4dc46314d350913d727fadb7bd60c55ccd8d1454[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Fri May 12 13:58:49 2023 +0800
+
+    运单监控查询联动效果
+
+[33mcommit c2e6039e61e6a9c3e13459acb70c8010feab7de1[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu May 11 18:27:34 2023 +0800
+
+    弹框调整
+
+[33mcommit 9ed3d3a2875ff9598b61deb73eaed40177d06d16[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Wed May 10 23:23:00 2023 +0800
+
+    bug修复
+
+[33mcommit 335e1fff9867bf11ac95112686c959f36a181ace[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Wed May 10 18:20:03 2023 +0800
+
+    bug修复
+
+[33mcommit e17d63cc53aa284ba5bc0288b71f5739ae496296[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Mon May 8 17:19:11 2023 +0800
+
+    bug修复
+
+[33mcommit f5bd3bab98d650cbd569e8f95e341573317f929d[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Mon May 8 17:12:01 2023 +0800
+
+    弹框列表新增
+
+[33mcommit 5c8c06e5b1c97dfdf0e87df7b657b12bceac7b5a[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Mon May 8 16:23:57 2023 +0800
+
+    物流态势最新动态添加
+
+[33mcommit 2ddaca23a4d7adc2ebe8c82e48f4564b37e24222[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Sat May 6 18:21:34 2023 +0800
+
+    新加参数
+
+[33mcommit bb2ed8ea95916172a75b8cbdf2de551788e6e071[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Fri May 5 18:48:16 2023 +0800
+
+    bug修复
+
+[33mcommit 7a54c545e53d60d042d2707e809d1ed8c54aeeb8[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Tue Apr 25 22:44:02 2023 +0800
+
+    bug修复
+
+[33mcommit 68d28b887e110ed2f790bd61e535bf0df414d426[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Mon Apr 24 13:49:07 2023 +0800
+
+    bug修复
+
+[33mcommit c200b3c4df598730da2deb98d5b179cf11f8976b[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Sun Apr 23 16:32:47 2023 +0800
+
+    bug修复
+
+[33mcommit 123d454699819f22f229a86f566c071a3e25d6b1[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Sun Apr 23 14:35:43 2023 +0800
+
+    文档bug修复
+
+[33mcommit 39de94f5d27a2203528133d0e64b20a92785cd6e[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Fri Apr 21 17:44:25 2023 +0800
+
+    综合评价接口联调
+
+[33mcommit e4bdc3ea8d7be1794192896adeea1a0868c9376c[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Fri Apr 21 11:45:50 2023 +0800
+
+    物流态势弹框调整&IP调整
+
+[33mcommit 94c812b60dd20f3bbf7c68b3732b4bd0ceaf6e3c[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Apr 20 17:04:00 2023 +0800
+
+    综合评价接口联调
+
+[33mcommit b2370da880086db58247ddf8b7148a704f36240f[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Wed Apr 19 17:33:02 2023 +0800
+
+    物流态势tab接口联调&全域监控添加地图
+
+[33mcommit 5db7a17a6369c55e7ff56bb0e3d587cb7936ac0f[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Tue Apr 18 18:01:59 2023 +0800
+
+    异常监控接口联调
+
+[33mcommit c3b3bd961d0d7dac0905b7f4f41d9fdab83d1422[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Tue Apr 18 16:54:29 2023 +0800
+
+    地图导视tab接口联调
+
+[33mcommit fac1072c4629deee256f71ccf3a9f4b9bc62817a[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Mon Apr 17 18:25:54 2023 +0800
+
+    地图导视tab接口联调
+
+[33mcommit 6c990329e1e543b9373ee4b27e4d1c3c283c24dc[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Fri Apr 14 18:22:21 2023 +0800
+
+    接口联调
+
+[33mcommit ea3c43d38612bbbd6619195f285486016508f71a[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Fri Apr 14 16:38:48 2023 +0800
+
+    物流态势 参数调整
+
+[33mcommit ac1e9210ed3a8497bd00bea2bea3ea76876a58b1[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Fri Apr 14 16:04:22 2023 +0800
+
+    异常监控搭建
+
+[33mcommit 513d7c8a99ae45b954b99ce95bd95536b8fca4fc[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Apr 13 17:36:19 2023 +0800
+
+    ip调整
+
+[33mcommit 483bc001eb2ec424e72ed71c3ce73bc3459c94cb[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Apr 13 17:33:16 2023 +0800
+
+    费效分析接口联调
+
+[33mcommit af4d74a5b51638e56be045c22a61a2685d5bdb91[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Wed Apr 12 18:29:44 2023 +0800
+
+    接口联调
+
+[33mcommit cb409e949cba76fa5b0300e0d7f0d95c2b84419c[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Tue Apr 11 17:24:46 2023 +0800
+
+    综合评价接口联调
+
+[33mcommit 13a1ce37adf5d55b12316a82e26185742c9220b5[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Mon Apr 10 18:10:43 2023 +0800
+
+    数字化监控界面搭建
+
+[33mcommit 5d841857d8e68c14ecc6ce384a38309958133307[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Fri Apr 7 13:47:32 2023 +0800
+
+    路距测算bug修复
+
+[33mcommit edb062322497bd604507aff44c3a383d470a7355[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Apr 6 17:45:16 2023 +0800
+
+    ip调整
+
+[33mcommit d60fb43417c3e99333d756d7b9230354a88df080[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Apr 6 16:35:02 2023 +0800
+
+    tab调整
+
+[33mcommit 2d8c480bd6f4d7f0e6ecc09600481c4cfffac9f0[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Apr 6 15:15:08 2023 +0800
+
+    全程&全域tab查询
+
+[33mcommit bb853c658fc55d211f05364cdc4bf9e812ef0835[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Apr 6 14:16:41 2023 +0800
+
+    首页tab接口联调
+
+[33mcommit 763f8034bcc192797ee85006b43eb0f59b70b513[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Wed Apr 5 21:43:44 2023 +0800
+
+    首页tab接口联调
+
+[33mcommit df31cd56dab91a76c7f5a69f382cf854c72f1fb9[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Wed Apr 5 18:22:39 2023 +0800
+
+    综合评价界面搭建
+
+[33mcommit 630f0f0e8b58b31549aaa6c9beae4702b92554bd[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Tue Apr 4 18:18:14 2023 +0800
+
+    新增接口
+
+[33mcommit 4114b1696067202d2daa3da1f6be76f53d1f6468[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Tue Apr 4 17:19:23 2023 +0800
+
+    fxfx界面搭建
+
+[33mcommit 8a44c0e11b611eb0b3b0db2534c10fb0e6512cdb[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Tue Apr 4 16:31:46 2023 +0800
+
+    tab接口联调
+
+[33mcommit 974e77bac0696c89f0de01254965b1b48a011369[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Mon Apr 3 18:18:34 2023 +0800
+
+    全程监控tab接口联调
+
+[33mcommit 0d17e706390422a89f8201a12831926161ec463a[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Mon Apr 3 15:27:20 2023 +0800
+
+    全域监控tab接口联调
+
+[33mcommit 677c8c84c8efc2048d180ab44709862cb7e647b0[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Mon Apr 3 10:33:25 2023 +0800
+
+    路由调整
+
+[33mcommit 20b5934e41a6521ac09a85b075e2ad58ad853848[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Sun Apr 2 19:54:52 2023 +0800
+
+    l=路距测算iframe调整
+
+[33mcommit 542b8eebfc1c44f06bab6af80aec87e21c3ebd7a[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Sun Apr 2 18:13:32 2023 +0800
+
+    ip调整
+
+[33mcommit 602e9a6fa399384a767e52350eb14a0884e52067[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Sun Apr 2 18:10:27 2023 +0800
+
+    全域监控接口联调
+
+[33mcommit fb68e797ac3d2f16cbd08910a208326d456a625c[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Sun Apr 2 18:01:41 2023 +0800
+
+    路距测算接口联调
+
+[33mcommit e6f04395ceb53508a795b8ff18f6076b7dcdd23a[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Fri Mar 31 14:15:56 2023 +0800
+
+    路距测算界面搭建
+
+[33mcommit f28dd2de52f68e5048d2962562fc99fa429e57de[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Mar 30 18:03:55 2023 +0800
+
+    ip调整
+
+[33mcommit 090fd784359d19b69e4f032800f2e27df5614c9d[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Mar 30 18:01:05 2023 +0800
+
+    运力测算
+
+[33mcommit 5a8a80d8ec87c209430885393736685db6c7ddfb[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Mar 30 15:59:00 2023 +0800
+
+    运力测算接口联调
+
+[33mcommit db49f9c508a2a4aefa948b047067aac20bc65571[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Wed Mar 29 18:27:34 2023 +0800
+
+    代码提交
+
+[33mcommit 510a39bf10fb27cc3c2b1c6c5e77b0669cb28b1e[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Tue Mar 28 18:24:23 2023 +0800
+
+    IP调整
+
+[33mcommit e581db49437eadba7e8c2fa1a4904fd666826f27[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Tue Mar 28 18:23:23 2023 +0800
+
+    ..
+
+[33mcommit 19c063685d0914f4934312f5587bf62d5e9c2972[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Mon Mar 27 18:25:29 2023 +0800
+
+    代码提交
+
+[33mcommit 53da2ce0a224f078e8d37077bbc0c0f74f15ceff[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Mon Mar 27 15:50:49 2023 +0800
+
+    ip调整
+
+[33mcommit 521fb5fde9b67ea234dc55bf9cabe85628110c0d[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Mon Mar 27 15:48:14 2023 +0800
+
+    路距测算地址引用
+
+[33mcommit 307a92796f8473799ef90994188443b034130847[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Mon Mar 27 14:48:04 2023 +0800
+
+    首页接口联调
+
+[33mcommit 08d491287e31687edd1fd277d340df19b1d8d0d7[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Fri Mar 24 17:43:33 2023 +0800
+
+    bug修复
+
+[33mcommit 466f6a35da90c8eae9669584efb9cb233801ac3a[m
+Merge: c343309 1456718
+Author: siyouyou <2058202723@qq.com>
+Date:   Fri Mar 24 15:20:21 2023 +0800
+
+    Merge branch 'master' of https://gitee.com/siyouyou/faw-logsasits
+
+[33mcommit c3433099979806e5ed6296a4f683e5a123f02efe[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Fri Mar 24 15:20:09 2023 +0800
+
+    ..
+
+[33mcommit 14567186bbdb1515cd36c830d0158ef0c906d4bb[m
+Author: wzh66 <wzh514500>
+Date:   Fri Mar 24 10:40:57 2023 +0800
+
+    仓储规划热力图
+
+[33mcommit fc3fd2b1afdea4e02e0bf3e75ec121b677bdde98[m
+Merge: 43296aa 8aeb96e
+Author: wzh66 <wzh514500>
+Date:   Fri Mar 24 00:04:14 2023 +0800
+
+    Merge remote-tracking branch 'origin/master'
+    
+    # Conflicts:
+    #       src/views/bigscreen/homePage/components/FreightIndex.vue
+
+[33mcommit 43296aae9e420dac7c1443e9c2ed719bd4f6b3ab[m
+Author: wzh66 <wzh514500>
+Date:   Fri Mar 24 00:01:50 2023 +0800
+
+    拉取提交
+
+[33mcommit 8aeb96efe273156c380df821d696db852113c915[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Mar 23 20:56:41 2023 +0800
+
+    下载路径
+
+[33mcommit 012d5300a6940ce4742d14644be25a3044f14851[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Mar 23 17:46:16 2023 +0800
+
+    j解决方案调整
+
+[33mcommit e346752224480bb69322580e558953bc6d70c597[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Mar 23 17:29:00 2023 +0800
+
+    首页接口联调
+
+[33mcommit d5ea182797c73161fdb2d1b60575a8e3593273ec[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Mar 23 15:57:54 2023 +0800
+
+    ip调整
+
+[33mcommit c57858ea4d5bb089f47b1ce6cc10f48c4f996d55[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Mar 23 15:55:38 2023 +0800
+
+    首页接口联调
+
+[33mcommit 96299cc83955a8d51f76cb8b71b51b8377335636[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Mar 23 15:38:54 2023 +0800
+
+    需求分析bug修复
+
+[33mcommit 9fd7bbba6cc41b16d65d3f40828a7773e655b353[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Mar 23 13:47:15 2023 +0800
+
+    首页接口联调
+
+[33mcommit e5f235d7534701d5eaea3f87fb17c6e8fd24bb15[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Wed Mar 22 17:44:39 2023 +0800
+
+    起个名字
+
+[33mcommit 7e1a4a47052eb991a72855332d9dc226648d1e75[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Wed Mar 22 14:57:05 2023 +0800
+
+    列表导出
+
+[33mcommit 56c8510b2a889008f7a036360dcebf81af165aa6[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Wed Mar 22 11:16:10 2023 +0800
+
+    热力
+
+[33mcommit 545f318d0495744d9a6666b76d9d34a54b0b0a91[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Tue Mar 21 15:49:44 2023 +0800
+
+    溢出省略。悬浮显示
+
+[33mcommit 75fd876d8b85ffe6cdbbfb5d21cc4770e2e7fd94[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Tue Mar 21 15:24:57 2023 +0800
+
+    bug修复
+
+[33mcommit de84544879b8a72045078eb64e76a48061a9c4a4[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Tue Mar 21 11:16:13 2023 +0800
+
+    军兵种调整
+
+[33mcommit fdf50cb3f350205f55d88eab176ac8ee0021ee61[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Tue Mar 21 11:00:50 2023 +0800
+
+    物流态势>库存动态接口联调
+
+[33mcommit ff4edd90f03b2e34fdd11b9ff9f599143e4693fc[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Mon Mar 20 14:31:33 2023 +0800
+
+    仓储接口联调
+
+[33mcommit ad3e823b551a78746cb2bbd8e295a6e121621cad[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Sun Mar 19 19:28:24 2023 +0800
+
+    界面切换效果添加
+
+[33mcommit 47c40305a1f97d58bed6b04b4e0357c27da04cc2[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Sun Mar 19 18:21:09 2023 +0800
+
+    测力运算搭建
+
+[33mcommit a20a64712b8bba7fa22ecf726a21f60964ff4a9c[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Mar 16 22:43:45 2023 +0800
+
+    bug修复
+
+[33mcommit eebe9b58dbe15272e54fe1b4a1747a94352887cd[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Mar 16 16:31:26 2023 +0800
+
+    路由调整
+
+[33mcommit 406cc189512e03e7c4ac64d26b25697e5b803311[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Mar 16 16:28:50 2023 +0800
+
+    IP调整
+
+[33mcommit 514eb3c7d66d59fb0d52ff3e6432744a4d065ae0[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Mar 16 16:25:49 2023 +0800
+
+    ..
+
+[33mcommit a725a73615fbfd8e0a5d20adf919816e656a91de[m
+Merge: 4be42c0 f5f8961
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Mar 16 15:01:23 2023 +0800
+
+    Merge branch 'master' of https://gitee.com/siyouyou/faw-logsasits
+
+[33mcommit 4be42c062cda54f94742c5c56d3d2a373c80f12e[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Mar 16 15:01:15 2023 +0800
+
+    需求分析联调代码提交
+
+[33mcommit f5f89616281787a675177ba643c1781966914892[m
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Wed Mar 15 21:23:13 2023 +0800
+
+    修改首页背景色
+
+[33mcommit 644f83dcc469bcc77214223d82b2ba3c7f8bd564[m
+Merge: fc2791e 8f98836
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Wed Mar 15 20:58:52 2023 +0800
+
+    修改冲突
+
+[33mcommit 8f988365318376fda130df22eed401af50d8f3c0[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Wed Mar 15 17:16:36 2023 +0800
+
+    接口联调
+
+[33mcommit fc2791eb3ef60d132692d8304d4dfb05e6f10a50[m
+Author: haojinfeng000 <hjf6607@163.com>
+Date:   Wed Mar 15 14:51:40 2023 +0800
+
+    修改地图背景
+
+[33mcommit 54fdc7d0e1e9741cc5ca2747009eb888242d6de0[m
+Author: haojinfeng000 <hjf6607@163.com>
+Date:   Wed Mar 15 11:33:10 2023 +0800
+
+    修改扫描圈位置
+
+[33mcommit afae9f3432fca21fb339065a8c374a3f5e68c0e3[m
+Merge: 4fe7bb5 cbc6aa3
+Author: haojinfeng000 <hjf6607@163.com>
+Date:   Wed Mar 15 10:28:28 2023 +0800
+
+    Merge branch 'develop_haojinfeng' of https://gitee.com/siyouyou/faw-logsasits into develop_haojinfeng
+
+[33mcommit 4fe7bb59b0c816fe30cee2d1ecaa9ebecfebf2f9[m
+Author: haojinfeng000 <hjf6607@163.com>
+Date:   Wed Mar 15 10:28:17 2023 +0800
+
+    添加地图特效
+
+[33mcommit cbc6aa3b98d72db0ce9384344b65951a085e3e9c[m
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Tue Mar 14 22:43:47 2023 +0800
+
+    调整首页地图单色
+
+[33mcommit 9053e170a78f03f121af50de90f2890b93f67756[m
+Merge: e5007c5 cd59148
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Tue Mar 14 22:01:10 2023 +0800
+
+    解决冲突
+
+[33mcommit cd591486d0e62a47f33816f86294fbeb774ca88b[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Tue Mar 14 18:06:31 2023 +0800
+
+    bug修复代码提交
+
+[33mcommit e09d8d51c5bb8fd52c328035122550c9165a7e28[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Tue Mar 14 17:22:15 2023 +0800
+
+    总体概况bug修复
+
+[33mcommit 1fd439a5bdbe18778da0906da704a4624e37ee18[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Tue Mar 14 17:08:33 2023 +0800
+
+    全域监控bug修复
+
+[33mcommit a9a0c6de2f6bf3bc92eab98a23b6f7905f437df4[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Tue Mar 14 13:23:08 2023 +0800
+
+    接口问题修复
+
+[33mcommit 392df8fe5d46e9894170c25eb02a69266be08f81[m
+Merge: b12bd2e 5e13673
+Author: siyouyou <2058202723@qq.com>
+Date:   Mon Mar 13 16:31:12 2023 +0800
+
+    Merge branch 'master' of https://gitee.com/siyouyou/faw-logsasits
+
+[33mcommit b12bd2ed16c068c2d23e04bf89e7e880f7289a46[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Mon Mar 13 16:31:01 2023 +0800
+
+    bug修复
+
+[33mcommit e5007c5d1c2d2e0584c099b47c8e9d06e5b5422d[m
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Mon Mar 13 09:26:29 2023 +0800
+
+    恢复背景图
+
+[33mcommit 87d77d379ddddd6cb9acab332d22ef733a74abe9[m
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Sun Mar 12 21:43:19 2023 +0800
+
+    修改地图背景地形
+
+[33mcommit 81bfb068db0f6317aa1f5d9f28b82fdd6264f3cc[m
+Author: haojinfeng000 <hjf6607@163.com>
+Date:   Sun Mar 12 21:14:50 2023 +0800
+
+    修改地图背景图
+
+[33mcommit 4eb4cb4cd4cb359c386685615c23297a9d314e59[m
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Sun Mar 12 21:10:55 2023 +0800
+
+    添加图片
+
+[33mcommit bcc074c946e7855a26c40e7e1c5f2fb5a15bc0d2[m
+Merge: 5e13673 edba6e7
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Sun Mar 12 21:01:39 2023 +0800
+
+    Merge branch 'develop_haojinfeng' of https://gitee.com/siyouyou/faw-logsasits into develop_haojinfeng
+
+[33mcommit edba6e7b8dc008ecc09e9cbf54fa8d2ca126103d[m
+Author: haojinfeng000 <hjf6607@163.com>
+Date:   Sun Mar 12 21:00:45 2023 +0800
+
+    修改地图颜色
+
+[33mcommit 5e13673ddd5d8525baa367a0b896692e06f1752c[m
+Merge: 953d100 d84e020
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Sun Mar 12 20:53:08 2023 +0800
+
+    Merge branch 'master' into develop_haojinfeng
+
+[33mcommit 953d100dcb8fe209964407ce7975f529efd76342[m
+Author: haojinfeng000 <hjf6607@163.com>
+Date:   Sun Mar 12 20:51:11 2023 +0800
+
+    修改地图样式
+
+[33mcommit 76f5821faf07cd7336bead339719109555c1d408[m
+Author: haojinfeng000 <hjf6607@163.com>
+Date:   Sat Mar 11 19:12:50 2023 +0800
+
+    修改地图样式
+
+[33mcommit d84e02072582ea5dd33441446ce16058ebafd551[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Fri Mar 10 09:42:14 2023 +0800
+
+    问题修复
+
+[33mcommit 3e81437f447a49c500bc8e861e4f0fa39163c907[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Fri Mar 10 00:47:19 2023 +0800
+
+    ....
+
+[33mcommit 035d30d31b8a27e67b70e98bb68bb49709c5e46c[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Fri Mar 10 00:25:43 2023 +0800
+
+    ..
+
+[33mcommit 248931b2f3ec73be01b76f53dbdcf7eac364f200[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Mar 9 22:25:16 2023 +0800
+
+    ...
+
+[33mcommit 9ce96bbf14e99001be5c398751440fe584cf75f3[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Mar 9 21:33:36 2023 +0800
+
+    .
+
+[33mcommit 0103e1218c26c5646f9e1219e673b9329dc0c419[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Mar 9 21:28:40 2023 +0800
+
+    url界面
+
+[33mcommit 50b071eba5c19ce4a1887e9c4f21afaee2fc1c47[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Mar 9 21:11:52 2023 +0800
+
+    错位修复
+
+[33mcommit 41d7e95d7473d77e87217595f9bdacabc1c9c029[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Mar 9 18:56:35 2023 +0800
+
+    url调整
+
+[33mcommit 463749c116c4f537a54f3145934f441f6fe7804c[m
+Merge: 7a47c11 a288318
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Mar 9 17:52:01 2023 +0800
+
+    Merge branch 'master' of https://gitee.com/siyouyou/faw-logsasits
+
+[33mcommit 7a47c110a1673cb23bd6caa721c951cdd00e5c0f[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Mar 9 17:51:23 2023 +0800
+
+    调整
+
+[33mcommit a288318998fd4977e89857793f79c29336ab9b81[m
+Merge: b7205a4 5f5ddaf
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Thu Mar 9 17:37:27 2023 +0800
+
+    Merge branch 'develop_haojinfeng' into master
+
+[33mcommit 5f5ddaf424344e3b1ca8fe4ae41926951e4a03cc[m
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Thu Mar 9 17:36:45 2023 +0800
+
+    完善细节
+
+[33mcommit 8cf1a4794e0fcd812f119278a161ffd92aaaa8c0[m
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Thu Mar 9 17:30:59 2023 +0800
+
+    清理无用文件
+
+[33mcommit f100d3f83514bb93a76427fd13991bbfd31c0960[m
+Merge: dee504d 6d6afc9
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Thu Mar 9 17:11:52 2023 +0800
+
+    Merge branch 'develop_haojinfeng' of https://gitee.com/siyouyou/faw-logsasits into develop_haojinfeng
+
+[33mcommit 6d6afc92a8522160ca122d952b2cd96c3593ad95[m
+Author: haojinfeng000 <hjf6607@163.com>
+Date:   Thu Mar 9 17:11:13 2023 +0800
+
+    加载离线影像
+
+[33mcommit b7205a4f6b07efdfe7f708d541d17a039b0be823[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Mar 9 15:19:55 2023 +0800
+
+    外网调整&&新增业务管理
+
+[33mcommit f0d8e3a026ab6d853d07508b2e55736e2004c536[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Mar 9 15:05:59 2023 +0800
+
+    辅助决策外网跳转
+
+[33mcommit c4f88a20412199d0b1a19d50eed78f1f1aceb494[m
+Merge: 6e185db dee504d
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Mar 9 13:59:13 2023 +0800
+
+    Merge branch 'master' of https://gitee.com/siyouyou/faw-logsasits
+
+[33mcommit 6e185db6897fa492a466595a88bf5eaed28b0ba5[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Mar 9 13:59:05 2023 +0800
+
+    代码提交
+
+[33mcommit dee504db0a7ba8795236960d1f8cb34cb21376e1[m
+Merge: bce728e 5541d25
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Thu Mar 9 13:45:02 2023 +0800
+
+    Merge branch 'develop_haojinfeng' into master
+
+[33mcommit 5541d25c6118678eb1c1c9e641ea2820326ba707[m
+Author: haojinfeng000 <hjf6607@163.com>
+Date:   Thu Mar 9 13:40:29 2023 +0800
+
+    修改地图颜色
+
+[33mcommit 0c533ec02525335a545f678485a1ec84e9d0901f[m
+Merge: dfa98f3 86c3ef7
+Author: haojinfeng000 <hjf6607@163.com>
+Date:   Thu Mar 9 11:58:55 2023 +0800
+
+    Merge branch 'develop_haojinfeng' of https://gitee.com/siyouyou/faw-logsasits into develop_haojinfeng
+
+[33mcommit dfa98f317583d53b3a2c0b4a033219787d9b988d[m
+Author: haojinfeng000 <hjf6607@163.com>
+Date:   Thu Mar 9 11:58:45 2023 +0800
+
+    修改地图亮度
+
+[33mcommit 86c3ef7b27310a52df9ff192cbb20cc6a8a36438[m
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Thu Mar 9 07:40:44 2023 +0800
+
+    调整地图纯色
+
+[33mcommit bce728e5c932ee67a5c3ee352d73be60caa04e3a[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Wed Mar 8 23:43:34 2023 +0800
+
+    ..
+
+[33mcommit 0b881c3e67f49015261e255abd2d87d41fb64dda[m
+Author: haojinfeng000 <hjf6607@163.com>
+Date:   Wed Mar 8 20:52:08 2023 +0800
+
+    修改地图亮度
+
+[33mcommit 6073f60a0fc0483796ae0a18d9d7fbbc7964e138[m
+Author: haojinfeng000 <hjf6607@163.com>
+Date:   Wed Mar 8 20:17:26 2023 +0800
+
+    修改弹窗位置
+
+[33mcommit 7cb96a24ec3e82e20e4c041b4ecb22f49f8f8783[m
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Wed Mar 8 20:05:55 2023 +0800
+
+    添加层叠关闭
+
+[33mcommit 9fef063025e967dbe6314319f65d1d12e387f85a[m
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Wed Mar 8 19:55:37 2023 +0800
+
+    修改细节
+
+[33mcommit 40f32c04aa51ab4fa00b9b48ab30c20a71445356[m
+Merge: ac303da 48bf875
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Wed Mar 8 19:50:02 2023 +0800
+
+    Merge branch 'develop_haojinfeng' of https://gitee.com/siyouyou/faw-logsasits into develop_haojinfeng
+
+[33mcommit ac303daba83b0c999df32d0b52516e73b58d074d[m
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Wed Mar 8 19:49:07 2023 +0800
+
+    优化细节
+
+[33mcommit 48bf8758de2998f8679919fce391633650e6f4ca[m
+Author: haojinfeng000 <hjf6607@163.com>
+Date:   Wed Mar 8 19:49:01 2023 +0800
+
+    修改图标和地图特效
+
+[33mcommit b46ae284d64ed0c4b4dd736b4fdd8d63cd46a15a[m
+Merge: e45d60c 5a3bb74
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Wed Mar 8 19:35:28 2023 +0800
+
+    合并代码
+
+[33mcommit 5a3bb7442dc885ab62bc7392210570b0c1b20a22[m
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Wed Mar 8 18:38:11 2023 +0800
+
+    去掉胡银姐地址
+
+[33mcommit ee6aa5922d29b7c9cd978f89fe4e3e48dfd368bf[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Wed Mar 8 18:00:06 2023 +0800
+
+    daimatijiao
+
+[33mcommit 39a3ba05515ed32829f09ef7825e3670c225eaae[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Wed Mar 8 15:02:15 2023 +0800
+
+    tab添加
+
+[33mcommit ab49b85f50fead35a4f016ff20c309858b895b0f[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Wed Mar 8 00:24:03 2023 +0800
+
+    代码提交
+
+[33mcommit e45d60c605b61e9e602bceea635def4dcc14e6cf[m
+Author: haojinfeng000 <hjf6607@163.com>
+Date:   Tue Mar 7 20:36:48 2023 +0800
+
+    修改地图定位
+
+[33mcommit 504c62efae2db24c670f8648a315b958a412e0ae[m
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Tue Mar 7 19:13:32 2023 +0800
+
+    调整地图位置
+
+[33mcommit 83a30208c16ff15acc4eacce4a8377d18f0ad09c[m
+Author: haojinfeng000 <hjf6607@163.com>
+Date:   Tue Mar 7 14:41:03 2023 +0800
+
+    整合地图功能
+
+[33mcommit 5c74de6f9619dcd8276da0da1fe3308891885c1f[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Mon Mar 6 18:31:06 2023 +0800
+
+    ..
+
+[33mcommit 46b2b02bb61b5a57b7625c2cca8e4589d4557a0d[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Sun Mar 5 20:32:03 2023 +0800
+
+    界面调整
+
+[33mcommit 198fefb33da8a6f3c3d4143467ce28a28b81bc8a[m
+Merge: 11d82e1 37a238b
+Author: siyouyou <2058202723@qq.com>
+Date:   Sun Mar 5 15:02:48 2023 +0800
+
+    Merge branch 'develop-hyj' of https://gitee.com/siyouyou/faw-logsasits into develop-hyj
+
+[33mcommit 11d82e14d9268eb97e2aca5c75f934a556d3e473[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Sun Mar 5 15:02:40 2023 +0800
+
+    实时刷新
+
+[33mcommit 37a238b1866015a3fb6230750fa2a19dceab8d1d[m
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Thu Mar 2 18:21:02 2023 +0800
+
+    地图数据修改
+
+[33mcommit 16a795f104d9c930e74b70b8d1783f0c846c61da[m
+Merge: b1b3bd1 a1f4624
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Thu Mar 2 14:07:25 2023 +0800
+
+    合并
+
+[33mcommit b1b3bd133ea68b81c9060cf19a3f03eab2fd842f[m
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Thu Mar 2 14:06:53 2023 +0800
+
+    删除lock文件
+
+[33mcommit a1f4624f84f8b9e22cc0d937d7530239265b08d1[m
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Thu Mar 2 14:02:35 2023 +0800
+
+    更新yarn和package
+
+[33mcommit 8219f3c7b2b78223ae74b4729716f9181059f21f[m
+Author: huyinjie <huyinjie@goldwind.com>
+Date:   Wed Mar 1 19:19:04 2023 +0800
+
+    fiex: 视野更新
+
+[33mcommit fb8411f9de7d1d582cf6f3812df13b5b43b51add[m
+Author: huyinjie <huyinjie@goldwind.com>
+Date:   Wed Mar 1 18:54:00 2023 +0800
+
+    fiex: 视野更新
+
+[33mcommit b3f8b9eebd270ba80423925432b350a3f216a66e[m
+Merge: 6233d7d bb4aa03
+Author: siyouyou <2058202723@qq.com>
+Date:   Wed Mar 1 14:18:39 2023 +0800
+
+    Merge branch 'develop-hyj' of https://gitee.com/siyouyou/faw-logsasits into develop-hyj
+
+[33mcommit 6233d7d0304864b4e516b64952888a7e17dcac8b[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Wed Mar 1 14:18:31 2023 +0800
+
+    调整主页
+
+[33mcommit bb4aa039c14be95a52ba78304ed1a278914ba420[m
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Tue Feb 28 19:12:29 2023 +0800
+
+    去掉地图周边的圈
+
+[33mcommit e77b13ba959966924b868a648ac7c5d771e9e7a9[m
+Merge: 8928876 76588eb
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Mon Feb 27 22:37:49 2023 +0800
+
+    合并代码
+
+[33mcommit 76588ebc804fcada862a74e21ad1ab29393b9293[m
+Author: huyinjie <huyinjie@goldwind.com>
+Date:   Mon Feb 27 22:01:52 2023 +0800
+
+    feat: 安装插件
+
+[33mcommit c23803af887cf61abcaa5396edc924aee1bb6cac[m
+Author: huyinjie <huyinjie@goldwind.com>
+Date:   Mon Feb 27 21:50:13 2023 +0800
+
+    feat: 安装插件
+
+[33mcommit a6bd80a48a0886984c2b5441229f3948bb186be0[m
+Merge: 9685bf7 9a5e39d
+Author: huyinjie <huyinjie@goldwind.com>
+Date:   Mon Feb 27 21:34:57 2023 +0800
+
+    Merge branch 'develop-hyj' of https://gitee.com/siyouyou/faw-logsasits into develop-hyj
+
+[33mcommit 9685bf767bfbc3dc41564a3a2dc5b4877b5ed8f9[m
+Author: huyinjie <huyinjie@goldwind.com>
+Date:   Mon Feb 27 21:34:45 2023 +0800
+
+    feat: 键盘控制屏幕中心旋转+去掉左下角时间
+
+[33mcommit 9a5e39d2810e283edba5c549688315e4cdbc652a[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Mon Feb 27 13:50:20 2023 +0800
+
+    .
+
+[33mcommit 2d1eb876364d95b5fff74be69ca04cd75025e3ca[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Mon Feb 27 13:35:57 2023 +0800
+
+    细节调整
+
+[33mcommit 143770a7d2ffafc032d4b7ec3a10e1810990783b[m
+Merge: a548228 aeccfdf
+Author: siyouyou <2058202723@qq.com>
+Date:   Sun Feb 26 23:51:35 2023 +0800
+
+    dem
+
+[33mcommit aeccfdf49106a0243dacda6cda9a0a9d86618bc0[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Sun Feb 26 22:34:11 2023 +0800
+
+    细节调整
+
+[33mcommit 892887639589d07617a28edab94529918474ef03[m
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Sun Feb 26 22:25:27 2023 +0800
+
+    修改报错
+
+[33mcommit a548228cdda27d2a8bccd9106fe32b31f04e486c[m
+Merge: 4786ff8 b332d00
+Author: liujinbang <liujinbang@gsafety.com>
+Date:   Sun Feb 26 22:23:18 2023 +0800
+
+    合并代码
+
+[33mcommit 4786ff8bf180f18bdccef80ab40bef74ea2020af[m
+Author: huyinjie <huyinjie@goldwind.com>
+Date:   Sun Feb 26 22:00:43 2023 +0800
+
+    fixt: 修改详情
+
+[33mcommit 15bc7a3848362dcdba8793dd7576ec9dd808af23[m
+Author: huyinjie <huyinjie@goldwind.com>
+Date:   Sun Feb 26 21:29:56 2023 +0800
+
+    fixt: 修改场景
+
+[33mcommit 33fb26d0e0c9d18b6ed6ba624f020d647fee1b49[m
+Author: huyinjie <huyinjie@goldwind.com>
+Date:   Sun Feb 26 20:56:44 2023 +0800
+
+    fixt: 修改场景
+
+[33mcommit b332d00bb4ffd69f0f8061b92ec0b6173c008257[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Sun Feb 26 20:25:42 2023 +0800
+
+    代码提交
+
+[33mcommit 4b3a08f497c7987ab9e0a23d305c71002c98c641[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Sun Feb 26 20:23:58 2023 +0800
+
+    代码提交
+
+[33mcommit 891d1062d9b815b563235efa33993628697463ff[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Sun Feb 26 18:25:35 2023 +0800
+
+    细节调整
+
+[33mcommit bac8ace295f9ee6058839b1761409a98e5d914bf[m
+Author: huyinjie <huyinjie@goldwind.com>
+Date:   Sun Feb 26 17:57:35 2023 +0800
+
+    feat: 增加详情框
+
+[33mcommit a0f17b49fe26c88aa2d04db4693d43ba4c2636aa[m
+Merge: 4982ecb 0e5c7e3
+Author: siyouyou <2058202723@qq.com>
+Date:   Sun Feb 26 15:41:06 2023 +0800
+
+    冲突合并
+
+[33mcommit 4982ecb3cccb27e77130c7e1893f6ad04a65acef[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Sun Feb 26 15:39:56 2023 +0800
+
+    anima
+
+[33mcommit 361bf892c4b61d47aa88dad934f62d2662121a00[m
+Author: huyinjie <huyinjie@goldwind.com>
+Date:   Sat Feb 25 23:25:30 2023 +0800
+
+    feat: 增加多个点位
+
+[33mcommit ae0f9e0e41a7461edfa2f4272fa9534934686eb1[m
+Author: huyinjie <huyinjie@goldwind.com>
+Date:   Sat Feb 25 20:39:05 2023 +0800
+
+    feat: 增加3D文件
+
+[33mcommit 0e5c7e330f125e789315bbd67f3ed86ef161bdc1[m
+Author: wzh66 <wzh514500>
+Date:   Fri Feb 24 11:58:47 2023 +0800
+
+    饼状图加gif图
+
+[33mcommit dcedda583763f340a52e4e66874150cdf8ee6d98[m
+Author: wzh66 <wzh514500>
+Date:   Thu Feb 23 22:53:56 2023 +0800
+
+    首页代码提交
+
+[33mcommit 6b71ff933567ce8b03e1731efe1bae3599ac81f4[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Feb 23 12:44:33 2023 +0800
+
+    首页代码
+
+[33mcommit ead6271ac968986d1198c2e1e487f38a75231ca8[m
+Merge: e281363 777e910
+Author: siyouyou <2058202723@qq.com>
+Date:   Wed Feb 22 16:19:17 2023 +0800
+
+    Merge branch 'master' of https://gitee.com/siyouyou/faw-logsasits
+
+[33mcommit e281363b567d89d635e327be365f02944ed727c1[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Wed Feb 22 16:19:08 2023 +0800
+
+    首页搭建
+
+[33mcommit 777e910079b827ed23ec8a9e039cc67108a063d2[m
+Merge: c24bc34 2337d7e
+Author: wzh66 <wzh514500>
+Date:   Tue Feb 21 10:26:23 2023 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit c24bc343199c36e5b4626462156f8d223174bc35[m
+Author: wzh66 <wzh514500>
+Date:   Tue Feb 21 10:25:45 2023 +0800
+
+    修改bug
+
+[33mcommit 2337d7ef4767877f4b5771720a043875e3f644b7[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Tue Feb 14 12:22:57 2023 +0800
+
+    .
+
+[33mcommit 7ddef90cde23c90ba117a74e4b6ebc12d0077de7[m
+Merge: ffd1469 479b230
+Author: wzh66 <wzh514500>
+Date:   Tue Feb 14 11:43:30 2023 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit ffd146932f3c4d0eb136f18b1a73196a5c93f981[m
+Author: wzh66 <wzh514500>
+Date:   Tue Feb 14 11:43:01 2023 +0800
+
+    调整运单运输方向
+
+[33mcommit 479b230456c34d27b0aadf9bc395894b1f95565f[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Mon Feb 13 17:48:37 2023 +0800
+
+    .
+
+[33mcommit 3e5a4010303fc1119802152c30531fc66e830a7b[m
+Merge: 2950b35 d6977c3
+Author: siyouyou <2058202723@qq.com>
+Date:   Mon Feb 13 17:43:14 2023 +0800
+
+    Merge branch 'master' of https://gitee.com/siyouyou/faw-logsasits
+
+[33mcommit 2950b3560dca71ff5f353fedeffaa9aa2a4270c9[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Mon Feb 13 17:43:05 2023 +0800
+
+    代码提交
+
+[33mcommit d6977c3d79a4060483207995eee750e1a5502edd[m
+Author: wzh66 <wzh514500>
+Date:   Mon Feb 13 17:23:04 2023 +0800
+
+    地图代码提交
+
+[33mcommit 10a2929b15a593e6285532b3673d4756c862df27[m
+Author: wzh66 <wzh514500>
+Date:   Mon Feb 13 15:34:08 2023 +0800
+
+    地图代码提交
+
+[33mcommit 4c1cd8c274cf2d89139be03771b7011964bac52a[m
+Author: wzh66 <wzh514500>
+Date:   Sun Feb 12 19:55:14 2023 +0800
+
+    地图代码提交
+
+[33mcommit 1cad356e7352c96307c15e8f605b290a937e240c[m
+Merge: c0fca1c 85e278e
+Author: wzh66 <wzh514500>
+Date:   Sun Feb 12 19:43:38 2023 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit c0fca1c4c0682b5f0faa05003fc37e96c8c4f7df[m
+Author: wzh66 <wzh514500>
+Date:   Sun Feb 12 19:42:57 2023 +0800
+
+    地图代码提交
+
+[33mcommit 85e278eb6913bdbe7871ff678671e74f066be8b8[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Feb 9 15:39:03 2023 +0800
+
+    ..
+
+[33mcommit b8a1e93cb4912bea5d6636c5ec72c2dae41382be[m
+Merge: eda5e22 e8957ea
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Feb 9 14:19:08 2023 +0800
+
+    .
+
+[33mcommit eda5e228f73df8df7aeca023614f1329d600485b[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Feb 9 14:17:46 2023 +0800
+
+    悬浮框调整
+
+[33mcommit e8957ea91bfbbc21ec43aa23b8f19a086c8ee7ff[m
+Author: wzh66 <wzh514500>
+Date:   Thu Feb 9 12:10:14 2023 +0800
+
+    地图代码提交
+
+[33mcommit 31db69c759b0e67978f06658c5e3189760aa4e65[m
+Merge: 301e9a5 0af36ab
+Author: wzh66 <wzh514500>
+Date:   Thu Feb 9 11:39:54 2023 +0800
+
+    Merge remote-tracking branch 'origin/master'
+    
+    # Conflicts:
+    #       src/views/bigscreen/map/powerMap.vue
+
+[33mcommit 301e9a5e7be1d7866b418e760000f97c4f8a67e6[m
+Author: wzh66 <wzh514500>
+Date:   Thu Feb 9 11:36:38 2023 +0800
+
+    提示框超出显示调整
+
+[33mcommit 0af36abf59b9f0d01e074357cc064f9c38dc3c40[m
+Merge: 4ac9155 de6fe20
+Author: siyouyou <2058202723@qq.com>
+Date:   Wed Feb 8 20:40:22 2023 +0800
+
+    合并冲突
+
+[33mcommit 4ac9155f1f993de90aa792ba4b1526b17fbbdafe[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Wed Feb 8 20:38:49 2023 +0800
+
+    悬浮框
+
+[33mcommit de6fe204632600ca05947f008d3ab4a15a9993ba[m
+Author: wzh66 <wzh514500>
+Date:   Wed Feb 8 17:51:46 2023 +0800
+
+    地图代码提交
+
+[33mcommit bd9ca6dc3384a9b424da1e237cd28979fb7d8cb1[m
+Merge: 43ee836 6a0e337
+Author: wzh66 <wzh514500>
+Date:   Wed Feb 8 11:00:44 2023 +0800
+
+    Merge remote-tracking branch 'origin/master'
+    
+    # Conflicts:
+    #       src/api/index.js
+    #       src/views/bigscreen/demandAnalysis/index.vue
+
+[33mcommit 43ee8361c1278f02deff5c434edfe0ba45441027[m
+Author: wzh66 <wzh514500>
+Date:   Wed Feb 8 10:58:06 2023 +0800
+
+    地图代码提交
+
+[33mcommit 6a0e3379992aacdfe899d9cfbb3f53ba2cd1883d[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Wed Feb 8 10:53:05 2023 +0800
+
+    .
+
+[33mcommit e160a00478380a6fcd1f114175065f91e6ac0f94[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Mon Feb 6 18:51:27 2023 +0800
+
+    问题修复
+
+[33mcommit acbebfc570500c8e775c5cf8607aaceea1499b5a[m
+Merge: c342400 dcccb77
+Author: siyouyou <2058202723@qq.com>
+Date:   Mon Feb 6 18:27:36 2023 +0800
+
+    Merge branch 'master' of https://gitee.com/siyouyou/faw-logsasits
+
+[33mcommit c3424005d40363aec5d0364a6246463961b8c63d[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Mon Feb 6 18:27:24 2023 +0800
+
+    问题修复
+
+[33mcommit dcccb77cd6842eb654294a2999f4e2cfa1dcb1ea[m
+Merge: e5a610e b30192f
+Author: wzh66 <wzh514500>
+Date:   Mon Feb 6 17:55:29 2023 +0800
+
+    Merge remote-tracking branch 'origin/master'
+    
+    # Conflicts:
+    #       src/api/index.js
+
+[33mcommit e5a610eda355149af913d032c17c47276cdad8ed[m
+Author: wzh66 <wzh514500>
+Date:   Mon Feb 6 17:50:23 2023 +0800
+
+    地图代码提交
+
+[33mcommit b30192f733f7b91dd3f4f0edccec209c77276ce0[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Mon Feb 6 16:48:14 2023 +0800
+
+    问题修复
+
+[33mcommit d99e2f2c72c8de705d8740d00fcafa2075c93b19[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Mon Feb 6 09:59:53 2023 +0800
+
+    IP
+
+[33mcommit fae0a7867f0604fc3378367ca6b8e78fb28b1516[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Mon Feb 6 09:55:03 2023 +0800
+
+    问题修复
+
+[33mcommit b2761b2039d11faa9af6a1405b784804497c5533[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Sun Feb 5 21:26:14 2023 +0800
+
+    问题修复
+
+[33mcommit 04bdcae2fc5ab55058c045e39830e97369624249[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Feb 2 19:00:03 2023 +0800
+
+    .
+
+[33mcommit d875c817cbe32c17a8a34b0e9ae8133e62d838dc[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Feb 2 17:30:38 2023 +0800
+
+    配合后端调整IP
+
+[33mcommit 533e28fce746db75d63af82ed6410256950b5c30[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Feb 2 13:57:43 2023 +0800
+
+    问题修复
+
+[33mcommit 1eb560a006b2d042c3bb426ff51afb6330362d5e[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Feb 2 10:44:42 2023 +0800
+
+    配合后端调整IP
+
+[33mcommit 9afda2b257c45322e9b3daadf11a8fa52e216e3a[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Feb 2 10:12:15 2023 +0800
+
+    配合后端调整IP
+
+[33mcommit 92343120266b9ba31b03e9ca75365464e4e1994e[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Wed Feb 1 21:14:19 2023 +0800
+
+    4
+
+[33mcommit 6fcc49b2221e5480ac8251af183c3e6ec1ba5cec[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Wed Feb 1 17:50:58 2023 +0800
+
+    3
+
+[33mcommit 0e1645046dc6de6fc4dd49cf2616e41094aee7bc[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Wed Feb 1 16:43:33 2023 +0800
+
+    2
+
+[33mcommit 5be7abc89386701066da8a4c31c2456c0b6d9ad9[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Wed Feb 1 16:21:48 2023 +0800
+
+    1
+
+[33mcommit 3b7207fd45a646105045aadfd3d094efdaa85dd4[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Wed Feb 1 10:40:23 2023 +0800
+
+    .
+
+[33mcommit 2ddd9b7e1e00be947c1e948799eee8519152192b[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Wed Feb 1 09:46:30 2023 +0800
+
+    .
+
+[33mcommit 98cc169902049b56f75a0c9deccd8a1e6484cb4b[m
+Merge: 53a9a3a 19cecb0
+Author: siyouyou <2058202723@qq.com>
+Date:   Tue Jan 31 19:21:12 2023 +0800
+
+    Merge branch 'master' of https://gitee.com/siyouyou/faw-logsasits
+
+[33mcommit 53a9a3ad7395e4301865acd8b9f28b1b42a52810[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Tue Jan 31 19:21:03 2023 +0800
+
+    配置
+
+[33mcommit 19cecb0bdd50f4603c8140a297c8af4827719f55[m
+Merge: a7287ee 00a9bd6
+Author: wzh66 <wzh514500>
+Date:   Tue Jan 31 14:59:53 2023 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit a7287ee52ab08b1f0d1ed0e1d23c9a70c6f350dc[m
+Author: wzh66 <wzh514500>
+Date:   Tue Jan 31 14:59:17 2023 +0800
+
+    地图代码提交
+
+[33mcommit 00a9bd698ece690cad77467879d83c0d2c16a3fd[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Mon Jan 30 19:49:50 2023 +0800
+
+    。
+
+[33mcommit 1d1524a4af4a903630cea77e3a6bd8c10ca30114[m
+Author: orgycat <orgycat@gmail.com>
+Date:   Mon Jan 30 19:24:02 2023 +0800
+
+    fixed: 添加引入自定义配置
+
+[33mcommit 98256d919aa5972b8c5cdaacba392251aa0fc8ce[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Sun Jan 29 17:43:54 2023 +0800
+
+    配置调整
+
+[33mcommit 3fc07a56e60ff406b69cc0bf08c772f1b5bcc14c[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Sun Jan 29 16:47:21 2023 +0800
+
+    修复页面无法正常显示问题
+
+[33mcommit 18faa7c4352f13314ae7d16d569aa0129a8069a2[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Sun Jan 29 16:30:17 2023 +0800
+
+    配置调整
+
+[33mcommit 87cc365f813d512a65e80edb583b569fd5770570[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Sat Jan 28 22:11:24 2023 +0800
+
+    接口调试
+
+[33mcommit 41ccdfdc54ce9321cb3b6efef026481a84d00165[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Sun Jan 15 20:44:59 2023 +0800
+
+    问题调整
+
+[33mcommit 52d6a9b2d431801e7056e12e616f3fac93a3adf2[m
+Merge: ebea9ab db4c182
+Author: siyouyou <2058202723@qq.com>
+Date:   Sun Jan 15 18:54:02 2023 +0800
+
+    Merge branch 'master' of https://gitee.com/siyouyou/faw-logsasits
+
+[33mcommit ebea9ab7214a429b3e97b3797d660f70ad4e3851[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Sun Jan 15 18:53:52 2023 +0800
+
+    全程监控
+
+[33mcommit db4c182e901bfcfbc6922db73ca90bf41d762441[m
+Merge: ba4c237 b2a7d44
+Author: wzh66 <wzh514500>
+Date:   Thu Jan 12 17:37:22 2023 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit ba4c237a0c18f63381ae17e69ca000db79489f39[m
+Author: wzh66 <wzh514500>
+Date:   Thu Jan 12 17:36:28 2023 +0800
+
+    地图导视接口调试
+
+[33mcommit b2a7d4425114e3a17ea278c80a50e37d070f5398[m
+Merge: 4856950 7a82687
+Author: siyouyou <2058202723@qq.com>
+Date:   Wed Jan 11 18:32:09 2023 +0800
+
+    Merge branch 'master' of https://gitee.com/siyouyou/faw-logsasits
+
+[33mcommit 48569500fe6c47edcfb537ee3ff5254dd6a6ac72[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Wed Jan 11 18:31:57 2023 +0800
+
+    物流态势联调
+
+[33mcommit 7a82687c24b2ac6e76c472740e5dd2b313e258e0[m
+Merge: 4bbbde4 88e1bf6
+Author: wzh66 <wzh514500>
+Date:   Wed Jan 11 15:56:16 2023 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit 4bbbde41bfd8ab6f4c404e20393168c6304f7ddd[m
+Author: wzh66 <wzh514500>
+Date:   Wed Jan 11 15:55:18 2023 +0800
+
+    力量部署接口调试
+
+[33mcommit 88e1bf6443e845f1edd5458a05cb787a16b6049c[m
+Merge: 3e17eb8 981c805
+Author: siyouyou <2058202723@qq.com>
+Date:   Tue Jan 10 10:47:27 2023 +0800
+
+    Merge branch 'master' of https://gitee.com/siyouyou/faw-logsasits
+
+[33mcommit 3e17eb8322f2bcbbb7318158a405d0efbec61a10[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Tue Jan 10 10:47:15 2023 +0800
+
+    细节调整
+
+[33mcommit 981c805992b9ab82b9f43358f97cbda2eb895285[m
+Merge: 7a84b69 be4c418
+Author: wzh66 <wzh514500>
+Date:   Tue Jan 10 10:09:48 2023 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit 7a84b6943de74d4e7988bb4ed3e9c3d1f3e3b0b0[m
+Author: wzh66 <wzh514500>
+Date:   Tue Jan 10 10:09:09 2023 +0800
+
+    调试接口代码
+
+[33mcommit be4c418a842415846231a487dcc25023e18ad6fd[m
+Merge: 22701eb c4f7667
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Jan 5 17:07:43 2023 +0800
+
+    Merge branch 'master' of https://gitee.com/siyouyou/faw-logsasits
+
+[33mcommit 22701eb359654dfcdadb143c5196ae941c617901[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Jan 5 17:07:24 2023 +0800
+
+    .
+
+[33mcommit c4f766717830dc4baaf66d7c6e0d08f9ba34ed28[m
+Merge: d8ec75c 1c37690
+Author: wzh66 <wzh514500>
+Date:   Thu Jan 5 17:04:32 2023 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit d8ec75cc3d082e7ccf83888026aed4b43bdefe39[m
+Author: wzh66 <wzh514500>
+Date:   Thu Jan 5 17:03:46 2023 +0800
+
+    热力图
+
+[33mcommit 1c376903617017504a2a8618b03f1ebac2a4cec0[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Jan 5 16:50:19 2023 +0800
+
+    llbs
+
+[33mcommit 77b91ca2bd99b3d1de5bd370c0fa8c2a49a5837c[m
+Author: wzh66 <wzh514500>
+Date:   Wed Jan 4 16:58:26 2023 +0800
+
+    热力图
+
+[33mcommit b03cbdab4e16758d99868b48034401467fef97c0[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Tue Jan 3 19:05:03 2023 +0800
+
+    总体概况
+
+[33mcommit 542f9b61dda66450f99b40bc6199c916231d02b3[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Fri Dec 30 19:04:56 2022 +0800
+
+    zongtigaikuang
+
+[33mcommit 4be38a1ba50b456b57577c1afa2efe7d9c025110[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Dec 29 19:52:08 2022 +0800
+
+    代码提交
+
+[33mcommit 2652aa828512b22366fdf73f1ed98f5b654c8477[m
+Merge: 38ec1c6 2727af1
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Dec 29 13:41:49 2022 +0800
+
+    Merge branch 'master' of https://gitee.com/siyouyou/faw-logsasits
+
+[33mcommit 38ec1c6e72ef2f1cd91b8bd09d237ae5810a9c56[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Dec 29 13:28:20 2022 +0800
+
+    relase
+
+[33mcommit 2727af16f310d57b2ac8f03b06fb3e53fc9f1701[m
+Author: wzh66 <wzh514500>
+Date:   Thu Dec 29 11:24:28 2022 +0800
+
+    地图代码提交
+
+[33mcommit 6f350cfb84c0c1c77e75737e35e7ea5f76ce66f2[m
+Author: wzh66 <wzh514500>
+Date:   Fri Dec 23 21:54:56 2022 +0800
+
+    地图代码提交
+
+[33mcommit 8d9ca5b8439b516f27b0d79d20d447a2f25e1371[m
+Merge: d73fc5e bd09983
+Author: wzh66 <wzh514500>
+Date:   Fri Dec 23 20:12:13 2022 +0800
+
+    Merge remote-tracking branch 'origin/master'
+    
+    # Conflicts:
+    #       src/views/bigscreen/map/powerMap.vue
+
+[33mcommit d73fc5ec884d2283f9e0e72202f04036356a51d2[m
+Author: wzh66 <wzh514500>
+Date:   Fri Dec 23 20:08:02 2022 +0800
+
+    地图代码提交
+
+[33mcommit bd0998326707dbceec275aa54c6be6fb6588ae64[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Dec 22 18:30:01 2022 +0800
+
+    仓储
+
+[33mcommit cf274f315e8d60280f283dfa3ee8f4c36c5b82cb[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Mon Dec 19 11:02:58 2022 +0800
+
+    。
+
+[33mcommit 6f9ccfa4c5ae8061464fbf7fcef0753f96970b73[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Sun Dec 18 13:24:01 2022 +0800
+
+    .
+
+[33mcommit 7e1fdfad57524bb388b906297376fa5487b54a64[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Fri Dec 16 12:12:43 2022 +0800
+
+    1
+
+[33mcommit da85d32d91284ac2b6d8a057b6cdcafd6586e84d[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Dec 15 18:20:44 2022 +0800
+
+    全域监控
+
+[33mcommit 3df6b5161ac19b44af7e98cf4b130acc33199339[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Dec 15 16:06:50 2022 +0800
+
+    ...
+
+[33mcommit 7388c13df49a42a15912d81cd5ea8d944078653e[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Dec 15 11:21:12 2022 +0800
+
+    .
+
+[33mcommit 5e893211f9fb564c1e9f72c96e6e3a38daa737d5[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Wed Dec 14 18:20:16 2022 +0800
+
+    雷达
+
+[33mcommit 634a7271615119e2b291d71a530333b8102f07ad[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Wed Dec 14 17:44:40 2022 +0800
+
+    .
+
+[33mcommit 3ccbcc2a7db2d8c6e2a44dff5457459c8678948c[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Tue Dec 13 18:12:32 2022 +0800
+
+    全域监控
+
+[33mcommit 935eb9ee10f7eeff5989aa1f8b083aa94967ef95[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Tue Dec 13 16:37:09 2022 +0800
+
+    ..
+
+[33mcommit bdb51d9f616be93d777db47fd9bc17fa44fe8314[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Sun Dec 11 20:26:44 2022 +0800
+
+    库存动态
+
+[33mcommit 9121d046669dac58e68d5fdb5a2269abcf0025f4[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Fri Dec 9 18:40:35 2022 +0800
+
+    细节调整
+
+[33mcommit 505dbcbd00c84d90f9830288ccf199fb0f1a3664[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Dec 8 20:11:39 2022 +0800
+
+    wuliutaishi1
+
+[33mcommit 41bb2639f7cd3c7cdc30830e8ce7ef4f3b8c8c5c[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Dec 8 16:20:26 2022 +0800
+
+    全程监控
+
+[33mcommit 0dc15a92121a067df690b8c811eb80e7f54448ba[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Dec 8 14:25:06 2022 +0800
+
+    物流态势
+
+[33mcommit e2c3b3bc27ba5534f372a531986014415cfcd08c[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Tue Dec 6 14:37:51 2022 +0800
+
+    .
+
+[33mcommit 1bfaeaed004f1b1ba06be7e4d9b2f6d051209458[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Tue Dec 6 12:12:06 2022 +0800
+
+    bug修复
+
+[33mcommit 3aee58abc365cd337c8bb68f85faff400a9c4c9f[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Mon Dec 5 20:16:06 2022 +0800
+
+    问题修复
+
+[33mcommit cb8b5eef33bc05b883b295a385a51ac26ad3f616[m
+Merge: aa5cfde 8077f4b
+Author: siyouyou <2058202723@qq.com>
+Date:   Mon Dec 5 17:36:58 2022 +0800
+
+    合并冲突
+
+[33mcommit aa5cfde383cfec32e26f7f6d8e75ae6d55aa047f[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Mon Dec 5 17:30:57 2022 +0800
+
+    修改
+
+[33mcommit 8077f4b1e3ec24489bfa43a5d0c73c48a46e6092[m
+Merge: d4b7182 b1f1965
+Author: wzh66 <wzh514500>
+Date:   Mon Dec 5 16:34:59 2022 +0800
+
+    Merge remote-tracking branch 'origin/master'
+    
+    # Conflicts:
+    #       src/views/bigscreen/map/powerMap.vue
+
+[33mcommit d4b718202d2cf94a98d50863e23a4fbeccf577c9[m
+Author: wzh66 <wzh514500>
+Date:   Mon Dec 5 16:31:11 2022 +0800
+
+    地图代码提交
+
+[33mcommit b1f19652cdef912506e4faa2e03f89a6b4f93fce[m
+Merge: dad995c 4500278
+Author: siyouyou <2058202723@qq.com>
+Date:   Mon Dec 5 14:41:05 2022 +0800
+
+    Merge branch 'master' of https://gitee.com/siyouyou/faw-logsasits
+
+[33mcommit dad995c5d2f04cc16f1f1152fdaed1f03a6927a2[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Mon Dec 5 14:40:55 2022 +0800
+
+    问题修改
+
+[33mcommit 4500278abffd6c2d2b5a92938062c955495c3147[m
+Merge: a79ccfc cb66030
+Author: wzh66 <wzh514500>
+Date:   Mon Dec 5 11:12:54 2022 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit a79ccfcd4e2c246261aae2a4a06c0789cfd656ee[m
+Author: wzh66 <wzh514500>
+Date:   Mon Dec 5 11:12:10 2022 +0800
+
+    地图代码提交
+
+[33mcommit cb66030f05d1762342e09d58af8c2d446259c2f2[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Sun Dec 4 18:44:09 2022 +0800
+
+    问题处理
+
+[33mcommit ce303eeb044448fc9e9aec999690227f4d37daa1[m
+Merge: e969afb 1213c23
+Author: siyouyou <2058202723@qq.com>
+Date:   Fri Dec 2 15:20:31 2022 +0800
+
+    Merge branch 'master' of https://gitee.com/siyouyou/faw-logsasits
+
+[33mcommit e969afbe56bdfa2b8973eaee190419ff64eaf489[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Fri Dec 2 15:20:20 2022 +0800
+
+    调整
+
+[33mcommit 1213c23c80bfa5501646c5ad4e0e3ff0a4277298[m
+Merge: 8037aff faf5846
+Author: wzh66 <wzh514500>
+Date:   Thu Dec 1 18:12:23 2022 +0800
+
+    Merge remote-tracking branch 'origin/master'
+    
+    # Conflicts:
+    #       src/views/bigscreen/map/guideZoneMap.vue
+
+[33mcommit 8037afffc15e5b6d7d94a08f7715778cc90103aa[m
+Author: wzh66 <wzh514500>
+Date:   Thu Dec 1 18:09:32 2022 +0800
+
+    地图代码提交
+
+[33mcommit faf5846afec0979a8eb19e8d0035b637bb7c0150[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Dec 1 15:22:29 2022 +0800
+
+    login主页
+
+[33mcommit 255a434aa825df4c745532b79f13ae4aab870c5b[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Dec 1 14:49:56 2022 +0800
+
+    区域展示详细信息
+
+[33mcommit a887ba2c95692556a5561757546f47f873a0750e[m
+Author: wzh66 <wzh514500>
+Date:   Thu Dec 1 14:30:05 2022 +0800
+
+    地图代码提交
+
+[33mcommit 05a0cfac5bf94173797b8edef31872e3e5fc7c54[m
+Merge: e65409c 39dc241
+Author: wzh66 <wzh514500>
+Date:   Thu Dec 1 14:12:32 2022 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit e65409c8454c005f638a198cb62123b19b44ffbc[m
+Author: wzh66 <wzh514500>
+Date:   Thu Dec 1 14:12:00 2022 +0800
+
+    地图代码提交
+
+[33mcommit 39dc241454ff79413cf9fa0f247fdc8658595c25[m
+Merge: 2f1b69b 30b4060
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Dec 1 11:50:53 2022 +0800
+
+    Merge branch 'master' of https://gitee.com/siyouyou/faw-logsasits
+
+[33mcommit 2f1b69b390a25226ae5e82f5f679e7211ff342b2[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Dec 1 11:50:27 2022 +0800
+
+    login调整
+
+[33mcommit 30b4060809567415958b2bd96e764c9480470ea6[m
+Merge: 27e6235 33312be
+Author: wzh66 <wzh514500>
+Date:   Thu Dec 1 11:08:13 2022 +0800
+
+    Merge remote-tracking branch 'origin/master'
+    
+    # Conflicts:
+    #       src/views/bigscreen/map/zoneMap.vue
+
+[33mcommit 27e62359bec2aa4ae78f91a62b22b2517e1a4054[m
+Author: wzh66 <wzh514500>
+Date:   Thu Dec 1 10:57:23 2022 +0800
+
+    地图代码提交
+
+[33mcommit 33312be914cdcfa709c6316deaa0150e4be55f42[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Dec 1 10:41:09 2022 +0800
+
+    地图导视
+
+[33mcommit 33faf452e9fc11af58078a16739c30ab1001e781[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Wed Nov 30 11:57:36 2022 +0800
+
+    .
+
+[33mcommit 7af917f05ed4b1d92f99047e545905f074c6187e[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Tue Nov 29 19:43:07 2022 +0800
+
+    10
+
+[33mcommit fa888931a8b0d75546755f5471c234852fb7683b[m
+Author: wzh66 <wzh514500>
+Date:   Tue Nov 29 15:49:32 2022 +0800
+
+    地图代码提交
+
+[33mcommit 60b28fe3069d5f1ac1838ceb9a23432a318fa046[m
+Merge: dfbac26 df2fc5b
+Author: wzh66 <wzh514500>
+Date:   Tue Nov 29 10:22:12 2022 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit dfbac26e353c8e227da47c7c9eded181a9a6d0dc[m
+Author: wzh66 <wzh514500>
+Date:   Tue Nov 29 10:21:01 2022 +0800
+
+    地图代码提交
+
+[33mcommit df2fc5bdca87fb5ef259739fa7bd56befa68e407[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Mon Nov 28 19:10:57 2022 +0800
+
+    。
+
+[33mcommit 35671f0807469aa51b87690b8b7ff507a91576dd[m
+Author: wzh66 <wzh514500>
+Date:   Mon Nov 28 17:49:06 2022 +0800
+
+    地图代码提交
+
+[33mcommit 29a9679f2b858ff628bc70e3a37caab9ac2ecaf1[m
+Merge: 426da7e 593de45
+Author: wzh66 <wzh514500>
+Date:   Mon Nov 28 11:57:29 2022 +0800
+
+    Merge remote-tracking branch 'origin/master'
+    
+    # Conflicts:
+    #       src/views/bigscreen/map/powerMap.vue
+
+[33mcommit 426da7e8a06fc628788d8a724ca1520db17d9550[m
+Author: wzh66 <wzh514500>
+Date:   Mon Nov 28 11:54:24 2022 +0800
+
+    地图代码提交
+
+[33mcommit 593de45f57c3aaf9eb14bd4aa9f0034aef857ca3[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Mon Nov 28 11:50:25 2022 +0800
+
+    ..
+
+[33mcommit 97fd71b815feb118438ce3d8386f4f9bd1a034a4[m
+Merge: c87423e 199b1fc
+Author: wzh66 <wzh514500>
+Date:   Mon Nov 28 11:33:23 2022 +0800
+
+    Merge remote-tracking branch 'origin/master'
+    
+    # Conflicts:
+    #       src/views/bigscreen/map/powerMap.vue
+
+[33mcommit c87423e64116c025e8a42a90fd051a2f28d3c302[m
+Author: wzh66 <wzh514500>
+Date:   Mon Nov 28 11:26:50 2022 +0800
+
+    拉取代码
+
+[33mcommit 199b1fce799030d968baf2e686fedbcc244a09d5[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Mon Nov 28 11:20:58 2022 +0800
+
+    地图123
+
+[33mcommit c67cc3cdacb7da9c82258df81f816e99eb0248dc[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Nov 24 11:26:14 2022 +0800
+
+    v
+
+[33mcommit 9aa4e41ad3b01811d73e778fe9a5bad2d737c1c2[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Nov 24 11:25:47 2022 +0800
+
+    Merge branch 'master' of https://gitee.com/siyouyou/faw-logsasits
+
+[33mcommit 5c51c47e8c8f97e911975ef5148eab9188e98f5c[m
+Merge: e0df15c 7ce6e36
+Author: wzh66 <wzh514500>
+Date:   Thu Nov 24 11:04:06 2022 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit e0df15cf937053a7f89f0bb9fd716ef7d572e15f[m
+Author: wzh66 <wzh514500>
+Date:   Thu Nov 24 11:03:31 2022 +0800
+
+    地图代码提交
+
+[33mcommit 7ce6e363693aaa6689022cd45ec2c1977592646c[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Nov 24 10:16:59 2022 +0800
+
+    .
+
+[33mcommit 9b0c3cd43e09b67da30ec31503050e7a6f012b38[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Wed Nov 23 19:55:31 2022 +0800
+
+    abc
+
+[33mcommit a0c58a9735a93e569bf852746275ea2eda56d080[m
+Author: wzh66 <wzh514500>
+Date:   Wed Nov 23 18:26:08 2022 +0800
+
+    选择战区地图放大代码提交
+
+[33mcommit c123517bfbada0a3c765af5b4cf5fc0cd4329c33[m
+Author: wzh66 <wzh514500>
+Date:   Wed Nov 23 18:04:06 2022 +0800
+
+    地图代码提交
+
+[33mcommit e0acfe0946ca8751075c3f79a58fb456132d5bf3[m
+Author: wzh66 <wzh514500>
+Date:   Wed Nov 23 17:35:28 2022 +0800
+
+    地图代码提交
+
+[33mcommit e94d2f5f0dab2e729dbde3eb682c918e2b29f10e[m
+Author: wzh66 <wzh514500>
+Date:   Wed Nov 23 15:13:45 2022 +0800
+
+    地图代码提交
+
+[33mcommit 09e914302b95b19fe6c5a87f91b43e6c9e8c897e[m
+Merge: bbab064 dfdab05
+Author: wzh66 <wzh514500>
+Date:   Wed Nov 23 11:44:40 2022 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit bbab064b2b11caca738f4b33e116d531e073ebce[m
+Author: wzh66 <wzh514500>
+Date:   Wed Nov 23 11:43:36 2022 +0800
+
+    地图代码提交
+
+[33mcommit dfdab051665a76bcd9975bb15a76300a83a26b80[m
+Merge: c271492 400d77d
+Author: siyouyou <2058202723@qq.com>
+Date:   Tue Nov 22 18:58:08 2022 +0800
+
+    123
+
+[33mcommit c2714923c3d0c3e1f5e466a4cd6ca1aeb9e01077[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Tue Nov 22 18:55:37 2022 +0800
+
+    细节调整
+
+[33mcommit 400d77db0c530d5be81d4614780c0dd84d76bb06[m
+Author: wzh66 <wzh514500>
+Date:   Tue Nov 22 18:06:28 2022 +0800
+
+    地图代码提交
+
+[33mcommit 548f231b97805611410f4e11c61db1af8db9f79d[m
+Author: wzh66 <wzh514500>
+Date:   Tue Nov 22 11:02:42 2022 +0800
+
+    地图代码提交
+
+[33mcommit 727f65d21eaf9e8b9f259de6a0901cd086465025[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Mon Nov 21 20:21:34 2022 +0800
+
+    click
+
+[33mcommit 8e8cf9a14cdd68359b4a16edaa05624951746730[m
+Merge: 2ea3e58 f777951
+Author: siyouyou <2058202723@qq.com>
+Date:   Mon Nov 21 19:54:51 2022 +0800
+
+    合并冲突
+
+[33mcommit 2ea3e589cc52a865eae768c2944546c76e76c122[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Mon Nov 21 19:51:25 2022 +0800
+
+    ..
+
+[33mcommit f777951cfcac6fcf14516143dfcc2db8714fc008[m
+Author: wzh66 <wzh514500>
+Date:   Mon Nov 21 18:00:22 2022 +0800
+
+    地图代码提交
+
+[33mcommit 1ae14ca191ac9bec92681e1963cdfa92252a5cc3[m
+Merge: 65e1d97 2ff34e7
+Author: wzh66 <wzh514500>
+Date:   Mon Nov 21 10:36:40 2022 +0800
+
+    Merge remote-tracking branch 'origin/master'
+    
+    # Conflicts:
+    #       package.json
+    #       src/views/bigscreen/map/powerMap.vue
+
+[33mcommit 65e1d97595b01aac3879262fcdb232acffe6244d[m
+Author: wzh66 <wzh514500>
+Date:   Mon Nov 21 10:10:23 2022 +0800
+
+    地图代码提交
+
+[33mcommit 2ff34e71d454f1da107d27718f127f40d9624a42[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Nov 17 20:14:57 2022 +0800
+
+    力量部署界面调整
+
+[33mcommit b2a41a2b50bd3ce5963c2da4f62eaea6a338e8b9[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Nov 17 18:35:52 2022 +0800
+
+    合并冲突
+
+[33mcommit c9b26745ace60d5b61e8f0c96df698b6c88796bb[m
+Merge: f4468c4 da47e6f
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Nov 17 17:33:27 2022 +0800
+
+    Merge branch 'master' of https://gitee.com/siyouyou/faw-logsasits
+
+[33mcommit f4468c418cd0e8b85d0d56b9fd8b43a1365d1730[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Thu Nov 17 17:33:11 2022 +0800
+
+    全程监控界面搭建
+
+[33mcommit da47e6f837a3ac4246e39584fcc7c65fe3657b14[m
+Merge: 4100a2c 2a0d308
+Author: song.cc <song.cc@asiainfo-sec.com>
+Date:   Thu Nov 17 16:53:32 2022 +0800
+
+    Merge branch 'master' of https://gitee.com/siyouyou/faw-logsasits
+
+[33mcommit 4100a2ccc0d4e4badf8e5e76e90d1f34b307aba4[m
+Author: song.cc <song.cc@asiainfo-sec.com>
+Date:   Thu Nov 17 16:46:04 2022 +0800
+
+    地图配置
+
+[33mcommit 2a0d30869642c44e65fa4f23566601941b401806[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Wed Nov 16 20:01:12 2022 +0800
+
+    wuliutaishi
+
+[33mcommit 9dab15e0527498bcdc5e6c8a16e2f43dcd9d52e3[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Wed Nov 16 14:07:22 2022 +0800
+
+    物流态势
+
+[33mcommit 3e0b67c509ac6b8a388204f18428790dfef1e8bc[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Wed Nov 9 15:20:20 2022 +0800
+
+    地图导视
+
+[33mcommit 1f6077e21997bf8ab09e0e0e7fd682ba410851c2[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Tue Nov 8 16:57:50 2022 +0800
+
+    ..
+
+[33mcommit 97f42ab0d6e320b66e4e130144c26cddea0bf26b[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Tue Nov 8 16:51:54 2022 +0800
+
+    style调整
+
+[33mcommit 04f2d878fa015ca054bd0316a30e635ef30f1a34[m
+Author: siyouyou <2058202723@qq.com>
+Date:   Sun Nov 6 20:56:32 2022 +0800
+
+    界面调整
+
+[33mcommit bb650deec8842cb1445aef5c17356a84db4f6e82[m
+Author: 请输入用户名 <orgycat@gmail.com>
+Date:   Tue Oct 25 11:19:03 2022 +0800
+
+    f
+
+[33mcommit 2c2f23caac4ab68df273eb5b0747147311e3c1e1[m
+Author: 请输入用户名 <orgycat@gmail.com>
+Date:   Tue Oct 25 10:51:33 2022 +0800
+
+    f
+
+[33mcommit 9987521b716e345de6a84fd3f6ae94627c6e6f54[m
+Merge: dd7dbef 79a80e4
+Author: 请输入用户名 <orgycat@gmail.com>
+Date:   Mon Jan 10 13:31:38 2022 +0800
+
+    Merge commit '79a80e4d49baea5306125cc4b3115e52a6dce183'
+
+[33mcommit dd7dbef6053c0c13a800e198a420da2d0ef1ea15[m
+Author: 请输入用户名 <orgycat@gmail.com>
+Date:   Mon Jan 10 13:20:01 2022 +0800
+
+    f
+
+[33mcommit 79a80e4d49baea5306125cc4b3115e52a6dce183[m
+Merge: bcc9206 059e117
+Author: 请输入用户名 <orgycat@gmail.com>
+Date:   Mon Jan 10 13:06:39 2022 +0800
+
+    WIP on master: bcc9206 first commit
+
+[33mcommit 059e117527b08b242a6fb32e008217080e53a602[m
+Author: 请输入用户名 <orgycat@gmail.com>
+Date:   Mon Jan 10 13:06:39 2022 +0800
+
+    index on master: bcc9206 first commit
+
+[33mcommit bcc92060c6f94653f64797035cc266e7faedba04[m
+Author: orgycat <orgycat@gmail.com>
+Date:   Mon Dec 27 16:20:54 2021 +0800
+
+    first commit

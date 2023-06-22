@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <!--地图Lib-->
+    <script src="map/jquery/jquery-1.12.3.min.js"></script>
+    <script src="map/Cesium/Cesium.js"></script>
+    <script src="map/Cesium/autoPath.js"></script>
+    <script src="map/EtsMap.min.js"></script>
+    <script src="map/js/ODAnalysis.js"></script>
+    <!-- <script src="map/EtsMap.min.js"></script> -->
+    <link href="map/Cesium/Widgets/widgets.css" rel="stylesheet" type="text/css">
+    <link href="map/style.css" rel="stylesheet" type="text/css">
+   
+
+                    <style>
+                        body{
+                            overflow: hidden;
+                        }
+                        .fantastic-admin-home {
+                            position: absolute;
+                            z-index: 10000;
+                            top: 0;
+                            left: 0;
+                            height: 100%;
+                            width: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            flex-direction: column;
+                            user-select: none;
+                            color: #736477;
+
+                            /* background-color: snow; */
+                            background: url('/images/common/all-bg.png') repeat;
+                        }
+
+                        .fantastic-admin-home .loading {
+                            position: relative;
+                            display: inline-block;
+                            width: 1em;
+                            height: 1em;
+                            color: #0bcaf0;
+                            vertical-align: middle;
+                            pointer-events: none;
+                            transform: scale(3);
+                        }
+
+                        .fantastic-admin-home .loading::before,
+                        .fantastic-admin-home .loading::after {
+                            content: '';
+                            display: block;
+                            position: absolute;
+                            background-color: currentColor;
+                            left: 50%;
+                            right: 0;
+                            top: 0;
+                            bottom: 50%;
+                            box-shadow: -0.5em 0 0 currentColor;
+                            animation: loading 1s linear infinite;
+                        }
+
+                        .fantastic-admin-home .loading::after {
+                            top: 50%;
+                            bottom: 0;
+                            animation-delay: 0.25s;
+                        }
+
+                        @keyframes loading {
+
+                            0%,
+                            100% {
+                                box-shadow: -0.5em 0 0 transparent;
+                                background-color: currentColor;
+                            }
+
+                            50% {
+                                box-shadow: -0.5em 0 0 currentColor;
+                                background-color: transparent;
+                            }
+                        }
+
+                        .fantastic-admin-home .text {
+                            font-size: 18px;
+                            margin-top: 50px;
+                            color: #0bcaf0;
+                        }
+
+                        /**  一个简单文本DIV面板  **/
+                        .marsBlackPanel {
+                            padding: 5px 0;
+                            min-width: 300px;
+                            min-height: 70px;
+                            position: absolute;
+                            left: 16px;
+                            bottom: 31px;
+                            background: url("./3dmap/img/slice.png") 0 0 no-repeat;
+                            background-position: 0 0;
+                            background-size: 100% 100%;
+                        }
+
+                        /* .marsBlackPanel::before {
+    content: "";
+    width: calc(100% + 22px);
+    height: 39px;
+    position: absolute;
+    bottom: -39px;
+    left: -22px;
+    background: url("./3dmap/img/popupLbl.png") 0 0 no-repeat;
+    background-position: 0 0;
+} */
+                        .marsBlackPanel-text {
+                            width: 100%;
+                            height: 100%;
+                            text-align: left;
+                            padding: 1px 20px;
+                            font-size: 16px;
+                            font-family: "MicrosoftYaHei";
+                            font-weight: 400;
+                            color: #fff;
+                            line-height: 33px;
+                            /* border: 1px solid #ffffff4f; */
+                            -webkit-box-sizing: border-box;
+                            box-sizing: border-box;
+                            white-space: nowrap;
+                        }
+                        .marsBlackPanel-cont{
+                            color: #fff; 
+                            font-size: 14px;
+                            padding: 0 20px 0;
+                        }
+                    </style>
+</head>
+
+<body>
+    <div id="app">
+        <div class="fantastic-admin-home">
+            <div class="loading"></div>
+            <div class="text">
+                <%= htmlWebpackPlugin.options.title %>载入中…
+            </div>
+        </div>
+    </div>
+    <script src="/config/index.js"></script>
+    
+</body>
+
+</html>
