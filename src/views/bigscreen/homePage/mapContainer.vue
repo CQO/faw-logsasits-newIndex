@@ -1,16 +1,23 @@
 
 <template>
     <!-- 地图 -->
-    <div class="mapContent">        
+    <div class="mapContent centerMap">
+    <!-- <div class="mapContent fullMap"> -->
         <map3d :pointLayerData="pointLayerData" :searchPointData="searchPointData"></map3d>
         <!-- 搜索框 -->
-        <map-search @SentSearchData="getSearchData"  @closeTuli="closeTuli" ref="mapSearch"></map-search>
+        <div class="map-search">
+          <map-search @SentSearchData="getSearchData"  @closeTuli="closeTuli" ref="mapSearch"></map-search>
+        </div>
         <!-- 图例 -->
-        <TuLi ref="tuliRef" @changeTypeShow="changeTypeShow" @ShowInfo="showInfo" @HideInfo="hideInfo" @clearSearch="clearSearch"></TuLi>        
+        <div class="tuli-box">
+          <TuLi ref="tuliRef" @changeTypeShow="changeTypeShow" @ShowInfo="showInfo" @HideInfo="hideInfo" @clearSearch="clearSearch"></TuLi>        
+        </div>
         <!-- 汇总信息 -->
-        <summary-info v-if="infoShow" :infoData="infoData" @closeInfo="infoShow = false"></summary-info>
+        <div class="summary-info">
+          <summary-info v-if="infoShow" :infoData="infoData" @closeInfo="infoShow = false"></summary-info>
+        </div>
         <!-- 选择年度 -->
-        <div class="yearSelect">
+        <div class="year-select">
           <DataSelect></DataSelect>
         </div>
 
@@ -192,10 +199,65 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.yearSelect{
-  position: absolute;
-  top: 10px;
-  right: 10px;
+.mapContent{
+  position: fixed;   
+  z-index: 1;
+  // 占据全屏的地图样式
+  &.fullMap{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; 
+    .map-search{
+      position: absolute;    
+      top: 243px;
+      left: 497px;
+    }    
+    .tuli-box{
+      position: absolute;
+      bottom: 56px;
+      left: 497px;
+    }
+    .summary-info{
+      position: absolute;
+      bottom: 56px;
+      right: 446px;
+    }  
+    .year-select{
+      position: absolute;
+      top: 10px;
+      right: 10px;
+    } 
+  }
+  // 占据中间区域的地图样式
+  &.centerMap{
+    top: 180px;
+    left: 400px;
+    right: 400px;
+    bottom: 0;  
+    overflow: hidden;
+    .map-search{
+      position: absolute;    
+      top: 20px;
+      left: 15px;
+    }
+    .tuli-box{
+      position: absolute;
+      bottom: 20px;
+      left: 15px;
+    }
+    .summary-info{
+      position: absolute;
+      bottom: 20px;
+      right: 15px;
+    }     
+    .year-select{
+      position: absolute;
+      top: 20px;
+      right: 15px;
+    } 
+  }
 }
+
 </style>
 

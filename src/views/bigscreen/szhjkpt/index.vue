@@ -282,7 +282,7 @@
                         </div>
                 </div>
                 <div class="mainLisy">
-                    <div class="mainListItem" v-for="item in getJsData">
+                    <div class="mainListItem" v-for="(item,index) in getJsData" :key="index">
                         <div class="cbycitemlaner">{{item.fwdwdm }}</div>
                         <div class="cbycitemlaner contentOver" :title="item.dwdm">{{item.dwdm}}</div>
                         <div class="cbycitemlaner contentOver" :title="item.orderno">{{item.orderno}}</div>
@@ -341,7 +341,7 @@
                       </div>
               </div>
               <div class="mainLisy">
-                  <div class="mainListItem" v-for="item in getJhData">
+                  <div class="mainListItem" v-for="(item,index) in getJhData" :key="index">
                       <div class="cbycitemlaner">{{item.sendFromUnit }}</div>
                       <div class="cbycitemlaner contentOver" :title="item.recipientUnit">{{item.recipientUnit}}</div>
                       <div class="cbycitemlaner contentOver" :title="item.signDate">{{item.signDate}}</div>
@@ -409,7 +409,7 @@
                     </div>
             </div>
             <div class="mainLisy">
-                <div class="mainListItem" v-for="item in getDdjkData">
+                <div class="mainListItem" v-for="(item,index) in getDdjkData" :key="index">
                     <div class="cbycitemlaner">{{item.orderCode }}</div>
                     <div class="cbycitemlaner contentOver" :title="item.sendFromUnit">{{item.sendFromUnit}}</div>
                     <div class="cbycitemlaner contentOver" :title="item.recipientUnit">{{item.recipientUnit}}</div>

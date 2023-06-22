@@ -1,7 +1,7 @@
 <template>
   <div class="powerDeployment">
     <!-- 三维地图总容器 -->
-    <!-- <map-container></map-container> -->
+    <map-container></map-container>
     <!-- 地图 end -->
     <div class="top_header">
       <div class="routerBtnClick">
@@ -159,8 +159,8 @@
                 </div>
               </div>
           </div>
-          <div class="centBotBotLeft"></div>
-          <div class="centBotBotRight"></div>
+          <!-- <div class="centBotBotLeft"></div>
+          <div class="centBotBotRight"></div> -->
         </div>
         <div class="right_bot">
             <div class="left_top" style="height: 24%;">
@@ -234,7 +234,7 @@
                       </div>
               </div>
               <div class="mainLisy">
-                  <div class="mainListItem" v-for="item in getYdCenterData" @click="toShowDetailYd(item,'js')">
+                  <div class="mainListItem" v-for="(item,index) in getYdCenterData" @click="toShowDetailYd(item,'js')" :key="index">
                     <div class="cbycitemlaner">{{item.center }}</div>
                       <div class="cbycitemlaner">{{item.num1 }}</div>
                       <div class="cbycitemlaner contentOver" :title="item.num2" @click="toShowDetailYd(item,'js')">{{item.num2}}</div>
@@ -301,7 +301,7 @@
                       </div>
               </div>
               <div class="mainLisy">
-                  <div class="mainListItem" v-for="item in getJsData">
+                  <div class="mainListItem" v-for="(item,index) in getJsData" :key="index">
                       <div class="cbycitemlaner">{{item.fwdwdm }}</div>
                       <div class="cbycitemlaner contentOver" :title="item.dwdm">{{item.dwdm}}</div>
                       <div class="cbycitemlaner contentOver" :title="item.orderno">{{item.orderno}}</div>
@@ -366,7 +366,7 @@
                     </div>
             </div>
             <div class="mainLisy">
-                <div class="mainListItem" v-for="item in getJhData">
+                <div class="mainListItem" v-for="(item,index) in getJhData" :key="index">
                     <div class="cbycitemlaner">{{item.sendFromUnit }}</div>
                     <div class="cbycitemlaner contentOver" :title="item.recipientUnit">{{item.recipientUnit}}</div>
                     <div class="cbycitemlaner contentOver" :title="item.signDate">{{item.signDate}}</div>
@@ -396,7 +396,7 @@
                     </div>
             </div>
             <div class="mainLisy">
-                <div class="mainListItem" v-for="item in getJhCenterData">
+                <div class="mainListItem" v-for="(item,index) in getJhCenterData" :key="index">
                     <div class="cbycitemlaner">{{item.center }}</div>
                     <div class="cbycitemlaner contentOver text-decoration" :title="item.jss" @click="toShowDetailInfor(item,'js')">{{item.jss}}</div>
                     <div class="cbycitemlaner contentOver text-decoration" :title="item.jswcs" @click="toShowDetailInfor(item,'js')">{{item.jswcs}}</div>
@@ -448,7 +448,7 @@
             </div>
           </div>
           <div class="mainLisy">
-        <div class="mainListItem" v-for="item in getJsData">
+        <div class="mainListItem" v-for="(item,index) in getJsData" :key="index">
             <div class="cbycitemlaner">{{item.fwdwdm }}</div>
             <div class="cbycitemlaner contentOver" :title="item.dwdm">{{item.dwdm}}</div>
             <div class="cbycitemlaner contentOver" :title="item.orderno">{{item.orderno}}</div>
@@ -488,7 +488,7 @@ layout="prev, pager, next"
               </div>
       </div>
       <div class="mainLisy">
-          <div class="mainListItem" v-for="item in getOrderCenterData">
+          <div class="mainListItem" v-for="(item, index) in getOrderCenterData" :key="index">
               <div class="cbycitemlaner">{{item.center }}</div>
               <div class="cbycitemlaner contentOver" :title="item.ycs" @click="toShowDetailOrder(item,'js')">{{item.ycs}}</div>
               <div class="cbycitemlaner contentOver" :title="item.wcs" @click="toShowDetailOrder(item,'js')">{{item.wcs}}</div>
@@ -540,7 +540,7 @@ layout="prev, pager, next"
                   </div>
           </div>
           <div class="mainLisy">
-              <div class="mainListItem" v-for="item in getDdjkData">
+              <div class="mainListItem" v-for="(item,index) in getDdjkData" :key="index">
                   <div class="cbycitemlaner">{{item.orderCode }}</div>
                   <div class="cbycitemlaner contentOver" :title="item.sendFromUnit">{{item.sendFromUnit}}</div>
                   <div class="cbycitemlaner contentOver" :title="item.recipientUnit">{{item.recipientUnit}}</div>
@@ -1437,6 +1437,12 @@ export default {
     box-shadow: 0 -1px 1px 0 rgba(0, 0, 0, 0.12);
   }
 }
+// 整体层叠关系
+.top_header, .left_bot, .right_bot, .center_bot{
+  position: relative;
+  z-index: 10;
+}
+
 .powerDeployment {
   background-image: url("../../../assets/image/homePage/mainBg.png");
   background-size:100% 100% ;
@@ -1445,14 +1451,6 @@ export default {
   height: 100%;
   position: relative;
   padding-bottom: 10px;
-}
-.mapContent {
-  position: absolute;
-  top: 150px;
-  left: 455px;
-  right: 455px;
-  height: 585px;
-  overflow: hidden;
 }
 .top_header {
   width: 100%;
@@ -1845,6 +1843,7 @@ export default {
   margin-top: 90px;
   padding:0 100px;
   position:relative;
+  height: 65px;
   .item {
     width: 215px;
 height: 53px;
@@ -2033,6 +2032,7 @@ height: 53px;
   background-image: url("../../../assets/image/content/sliceList.svg");
   background-size: 103% 103%;
   animation: bounceInLeft 1s cubic-bezier(0.215, 0.61, 0.355, 1);
+  z-index: 20;
   .close {
     position: absolute;
     //float: right;

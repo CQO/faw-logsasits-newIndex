@@ -1,5 +1,6 @@
 import {pointLayer,controleLayer,PointHeightLight } from './pointlayer'
 import {searchPointLayer} from './searchLayer'
+import {addGif} from './gif'
 export default class MapLayer {
     extrudedHeight = 100000;
     ODAnalysisOK=null
@@ -28,34 +29,24 @@ export default class MapLayer {
                 url: "./map/img/test/bg.png",
                 // url: "./map/img/foge.png",
             }),
-            /* imageryProvider: new Cesium.TileMapServiceImageryProvider({
-              url: Cesium.buildModuleUrl("Assets/Textures/NaturalEarthII")
-            }), */
+            // imageryProvider: new Cesium.TileMapServiceImageryProvider({
+            //   url: Cesium.buildModuleUrl("Assets/Textures/NaturalEarthII")
+            // }), 
         });
+        let viewer = etsMap.getViewer(); 
+        //增加gif动画
+        let gifurl = "./map/img/yun.gif";
+        // let gifurl = "./map/img/mainBg.gif";
+        addGif(viewer,gifurl)
         let scene = etsMap.getScene();
         window.camera = scene.getCamera();
-        // imageLayer = new EtsMap.ImageryLayer();
-        this.loadChinaBounds(etsMap);
+        // this.loadChinaBounds(etsMap);
         this.loadChina(etsMap);
-        this.hideGlobe(etsMap.getViewer(), etsMap.getApi());
-        //添加5类点位
-        // $.getJSON("./map/mapData/newPointData.json", function (result) {
-        //     self.addPoint(EtsMap,result)
-        // })
-        
-        // const markerLayer = new EtsMap.MarkerLayer();
-        // markerLayer.animationDOMPoint({
-        //     id: "ainim_DOM_11",
-        //     longitude: 113.4668,
-        //     latitude: 33.8818,
-        //     height: this.extrudedHeight,
-        //     color: "#95e40c",
-        // });
-        // this.poi(markerLayer);
+        // this.hideGlobe(etsMap.getViewer(), etsMap.getApi());
+
         this.addWallEntity();
         this.pickFeature(etsMap.getApi(), etsMap.getViewer());
-
-        let viewer = etsMap.getViewer();        
+       
         viewer.scene.screenSpaceCameraController.minimumZoomDistance =  2500000 // 相机高度最大值，即控制缩小级别
         viewer.scene.screenSpaceCameraController.maximumZoomDistance = 12000000
         viewer.scene.skyBox.show = false;
@@ -69,12 +60,20 @@ export default class MapLayer {
         let layers = viewer.scene.imageryLayers.get(0)
         layers.gamma = 0.66;
 
-        this.setBrightness(etsMap);
+        // this.setBrightness(etsMap);
         setTimeout(() => {
             this.scanDyWall();
         }, 4000);
        
+        viewer.scene.screenSpaceCameraController.enableTranslate = false;
+        viewer.scene.screenSpaceCameraController.enableRotate = false;
+        viewer.scene.screenSpaceCameraController.enableZoom = false;
+        viewer.scene.screenSpaceCameraController.enableTilt = false;
+        // 或
+        viewer.scene.screenSpaceCameraController.tiltEventTypes = [];
        
+
+
         $("#cimMapContainerpopup_16-popup-close").click(function () {
             $("#moveTips").hide();
         })
@@ -419,82 +418,6 @@ export default class MapLayer {
         viewer.scene.globe.baseColor = new etsMap.Color(0, 0, 0, 0);
         // viewer.scene.backgroundColor = etsMap.Color.BLUE;
         // viewer.scene.backgroundColor = color; 
-    }
-    poi(markerLayer) {
-        var url = "./map/img/icon1.png";
-        var url1 = "./map/img/icon2.png";
-        let that = this;
-        let scale = 0.5;
-        $.getJSON("./map/mapData/point.json", function (result) {
-
-            for (var index in result) {
-                const obj = result[index];
-                obj.scale = 1.0;
-                if (index % 2 == 0) {
-                    url = url1;
-                } else {
-                    url = "./map/img/icon1.png";
-                }
-                var item = {
-                    id: "icon" + index,
-                    longitude: obj.position[0],
-                    latitude: obj.position[1],
-                    height: that.extrudedHeight,
-                    scale: scale,
-                    url: url,
-                    attr: obj
-                };
-
-                /*    markerLayer.animationDOMPoint({
-                       id: "ainim_DOM_" + index,
-                       longitude: Number(obj.position[0]),
-                       latitude: Number(obj.position[1]),
-                       height: this.extrudedHeight,
-                       color: "#95e40c",
-                   }); */
-                that.loadScan(etsMap, Number(obj.position[0]), Number(obj.position[1]), that.extrudedHeight + 10000)
-                markerLayer.addIcon(item);
-                markerLayer.onMouseMove(clickCallback, mouseOutCallback);
-                function mouseOutCallback(value) {
-                    $("#moveTips").hide();
-                }
-                function clickCallback(obj, position, attributes) {
-
-                    obj.billboard.scale = scale;
-                    const object = obj._attributes.attr;
-                    $("#moveTIpsTitle").html(object.options.name);
-                    //    let  html = "<div>" + "<label>name：</label>" + object.options.name + "</div>";
-                    let html = "<div>" + "<label>存储收发能力2：</label>" + object.options.storage + "件</div>";
-                    $("#moveTipsMain").html(html);
-                    html = $("#moveTips").html();
-                    let offsetX = ($(window).width() - $("#etsMapContainer").width()) / 2;
-                    let offsetY = $(".mapContent").position().top + 20;
-                    // console.log(offsetY+"-------------------------")
-                    // console.log(offsetX)
-                    let etsTips = new EtsMap.EtsTips();
-                    etsTips.create({
-                        id: "moveTips",
-                        longitude: object.position[0],
-                        latitude: object.position[1],
-                        height: that.extrudedHeight,
-                        offsetX: -offsetX,
-                        offsetY: -offsetY || -140,
-                        html: '<div>' + html + '</div>'
-                    });
-                }
-                //添加飞线
-                // that.flyLine(obj.position[0], obj.position[1])
-            }
-
-
-            /*  camera.flyTo({
-               longitude: result[index][0],
-               latitude: result[index][1],
-               height: 2000,
-             }); */
-        });
-
-
     }
     addWallEntity() {
         let dynamicWall = new EtsMap.DynamicWallEntity();

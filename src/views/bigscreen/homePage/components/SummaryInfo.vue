@@ -69,13 +69,9 @@ export default {
 <style scoped lang="scss">
 .summaryInfo{  
   min-width: 270px;
-  height: 100px;
-  
+  height: 100px;  
   background: rgba(16,54,87,0.5);
   border: 1px solid #345f92;
-  position: absolute;
-  bottom: 4px;
-  right: 4px;
   border-radius: 3px;    
   .iconfont{
     position: absolute;

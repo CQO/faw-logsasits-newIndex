@@ -188,9 +188,6 @@ export default {
 
 <style scoped lang="scss">
 .mapSearch{
-  position: absolute;    
-  top: 10px;
-  left: 4px;
   // background: rgba(16,54,87,0.5);
   border-radius: 3px;
   display: flex;
